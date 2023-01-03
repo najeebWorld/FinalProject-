@@ -1,0 +1,505 @@
+0----------------------------------------------------------------------------------------------------
+Reference: xequemate
+Prediction: satolates
+WER: 1.0
+CER: 0.7777777777777778
+1----------------------------------------------------------------------------------------------------
+Reference: é necessário fornecer quando formulado uma avaliação
+Prediction: ele afetari a panhaquer quando pano lado uma galhafa
+WER: 1.0
+CER: 0.5576923076923077
+2----------------------------------------------------------------------------------------------------
+Reference: butiá
+Prediction: muteá
+WER: 1.0
+CER: 0.4
+3----------------------------------------------------------------------------------------------------
+Reference: se esta primeira condição for satisfeita é sensata forte e ágil
+Prediction: pesso esta qilônica e se fe sete feita finciaca fartinhege
+WER: 0.9090909090909091
+CER: 0.6031746031746031
+4----------------------------------------------------------------------------------------------------
+Reference: nós temos tempo suficiente
+Prediction: nas faramos pamas aos cormos
+WER: 1.25
+CER: 0.6923076923076923
+5----------------------------------------------------------------------------------------------------
+Reference: para mais informações visite o site do projeto fedora
+Prediction: ra nave informações dizeito sepe do projeto fedora mm
+WER: 0.6666666666666666
+CER: 0.2830188679245283
+6----------------------------------------------------------------------------------------------------
+Reference: bem digitalizar don quixote é um passo para levar a cultura a todos
+Prediction: bem guentalizadom questete ao paça para lemar coaturatores
+WER: 0.8461538461538461
+CER: 0.40298507462686567
+7----------------------------------------------------------------------------------------------------
+Reference: ariranha
+Prediction: anral
+WER: 1.0
+CER: 0.625
+8----------------------------------------------------------------------------------------------------
+Reference: ele é advogado do comando vermelho
+Prediction: eleade vadelio da com o agramita
+WER: 1.0
+CER: 0.5882352941176471
+9----------------------------------------------------------------------------------------------------
+Reference: curuçá
+Prediction: coroçá
+WER: 1.0
+CER: 0.3333333333333333
+10----------------------------------------------------------------------------------------------------
+Reference: oi meu nome é betina
+Prediction: oeina não te mequeina
+WER: 1.0
+CER: 0.65
+11----------------------------------------------------------------------------------------------------
+Reference: nem o radar nem os outros instrumentos detectaram o bombardeiro stealth
+Prediction: nenhum ará mim os altros ensemento os tetetean um bambedelste n
+WER: 1.0
+CER: 0.5070422535211268
+12----------------------------------------------------------------------------------------------------
+Reference: sistema único de saúde
+Prediction: sistema úniclo de raudi
+WER: 0.5
+CER: 0.18181818181818182
+13----------------------------------------------------------------------------------------------------
+Reference: pedir dinheiro emprestado às pessoas da aldeia
+Prediction: e ias ginheiro emprestada as pessoas da al deive
+WER: 1.0
+CER: 0.21739130434782608
+14----------------------------------------------------------------------------------------------------
+Reference: oito
+Prediction: oito
+WER: 0.0
+CER: 0.0
+15----------------------------------------------------------------------------------------------------
+Reference: trancálos
+Prediction: tancaús
+WER: 1.0
+CER: 0.4444444444444444
+16----------------------------------------------------------------------------------------------------
+Reference: o youtube ainda é a melhor plataforma de vídeos
+Prediction: otube ainda é a melhor platafãr de vedeos
+WER: 0.4444444444444444
+CER: 0.1702127659574468
+17----------------------------------------------------------------------------------------------------
+Reference: menina e menino beijando nas sombras
+Prediction: menina e menino peijando nas sombras
+WER: 0.16666666666666666
+CER: 0.027777777777777776
+18----------------------------------------------------------------------------------------------------
+Reference: coleção variada
+Prediction: clesan velhara
+WER: 1.0
+CER: 0.5333333333333333
+19----------------------------------------------------------------------------------------------------
+Reference: por san pedro junho atrás
+Prediction: por são pedro ganho atraz
+WER: 0.6
+CER: 0.24
+20----------------------------------------------------------------------------------------------------
+Reference: marialva
+Prediction: mariava
+WER: 1.0
+CER: 0.125
+21----------------------------------------------------------------------------------------------------
+Reference: o peixe para quem merece
+Prediction: o penxe para que loref
+WER: 0.6
+CER: 0.25
+22----------------------------------------------------------------------------------------------------
+Reference: há também vinícolas nas proximidades
+Prediction: atambém findícules naproximidades   m
+WER: 1.0
+CER: 0.3055555555555556
+23----------------------------------------------------------------------------------------------------
+Reference: eu sou o senhor
+Prediction: eu sou o senhor
+WER: 0.0
+CER: 0.0
+24----------------------------------------------------------------------------------------------------
+Reference: santa terezinha
+Prediction: santa trezinha
+WER: 0.5
+CER: 0.06666666666666667
+25----------------------------------------------------------------------------------------------------
+Reference: você entende o que quero dizer
+Prediction: você empende o que quero dizer
+WER: 0.16666666666666666
+CER: 0.06666666666666667
+26----------------------------------------------------------------------------------------------------
+Reference: passaefica
+Prediction: passa s feta
+WER: 3.0
+CER: 0.5
+27----------------------------------------------------------------------------------------------------
+Reference: o que temos que ter sempre em mente
+Prediction: o que temos que per finpenente
+WER: 0.5
+CER: 0.2857142857142857
+28----------------------------------------------------------------------------------------------------
+Reference: são sebastião da boa vista
+Prediction: estavo sebastiando a bula vista d
+WER: 1.0
+CER: 0.46153846153846156
+29----------------------------------------------------------------------------------------------------
+Reference: ismael kátia raul e nádia
+Prediction: esmean caquia raun e nalia
+WER: 0.8
+CER: 0.44
+30----------------------------------------------------------------------------------------------------
+Reference: antônio roberto da silva oliveira
+Prediction: antônio roberto da silva oliveira
+WER: 0.0
+CER: 0.0
+31----------------------------------------------------------------------------------------------------
+Reference: qualquer outra atividade que possa contribuir para a realização dos objetivos fundacionais
+Prediction: qualquer outre atividade que posse contribuir para realização dos objetivos fundacionais
+WER: 0.25
+CER: 0.044444444444444446
+32----------------------------------------------------------------------------------------------------
+Reference: o mago lançou um feitiço muito poderoso sobre a cidade
+Prediction: o bávolo achou o fexito muito poderoso na cidade
+WER: 0.6
+CER: 0.35185185185185186
+33----------------------------------------------------------------------------------------------------
+Reference: foi escondido de vista por uma massa de folhas e arbustos
+Prediction: sor os condigos de vista toruma maca de folhas e arbustos
+WER: 0.5454545454545454
+CER: 0.17543859649122806
+34----------------------------------------------------------------------------------------------------
+Reference: mas essas duas palavras nunca serão encontradas em meus pensamentos
+Prediction: as estads duas palavras nunca serão encontradas em minas pensamentos
+WER: 0.3
+CER: 0.08955223880597014
+35----------------------------------------------------------------------------------------------------
+Reference: duas mulheres e uma menina levantam com troféus
+Prediction: duas mulheres em uma menino lesantam com trofes
+WER: 0.5
+CER: 0.10638297872340426
+36----------------------------------------------------------------------------------------------------
+Reference: alexânia
+Prediction: alexania
+WER: 1.0
+CER: 0.125
+37----------------------------------------------------------------------------------------------------
+Reference: ah isso é hudo
+Prediction: aise oda
+WER: 1.0
+CER: 0.6428571428571429
+38----------------------------------------------------------------------------------------------------
+Reference: parece que tudo começa e termina no mesmo lugar
+Prediction: a rastatura coneça o telmina no nesvogad
+WER: 0.8888888888888888
+CER: 0.44680851063829785
+39----------------------------------------------------------------------------------------------------
+Reference: mesa de sinuca no bar
+Prediction: lele reio cribai
+WER: 1.0
+CER: 0.6666666666666666
+40----------------------------------------------------------------------------------------------------
+Reference: quem teria pensado que um homem poderia mudar tudo
+Prediction: quem teria pensado que um homem poderia mudar tudo
+WER: 0.0
+CER: 0.0
+41----------------------------------------------------------------------------------------------------
+Reference: espere por mim em casa eu irei então terminarei este rosário
+Prediction: espere por minha casa eeu então terminarei este rosário
+WER: 0.36363636363636365
+CER: 0.15
+42----------------------------------------------------------------------------------------------------
+Reference: são josé do bonfim
+Prediction: femes o eslhado pom um seu
+WER: 1.5
+CER: 1.0
+43----------------------------------------------------------------------------------------------------
+Reference: um cão preto e um cão preto e branco estão correndo na sujeira
+Prediction: um cão preto e um cão preto e branco estão correndo na sugeira
+WER: 0.07692307692307693
+CER: 0.016129032258064516
+44----------------------------------------------------------------------------------------------------
+Reference: para o filho dos ricos não toque no vestido
+Prediction: para o filho dos ricos não toque no vestido
+WER: 0.0
+CER: 0.0
+45----------------------------------------------------------------------------------------------------
+Reference: rio branco do sul
+Prediction: siorbranco e da fi
+WER: 1.0
+CER: 0.47058823529411764
+46----------------------------------------------------------------------------------------------------
+Reference: eu voei do navio onde eu morava até agora
+Prediction: eu oeido navia onde amorarm até a gora
+WER: 0.7777777777777778
+CER: 0.21951219512195122
+47----------------------------------------------------------------------------------------------------
+Reference: quem projetou essa fuga
+Prediction: quem prejetou essa fuga
+WER: 0.25
+CER: 0.043478260869565216
+48----------------------------------------------------------------------------------------------------
+Reference: na juventude eles têm lágrimas sem dor na era da dor sem lágrimas
+Prediction: dejeem todem ele stem elagra em asemidor la era deadorcilagras
+WER: 0.9230769230769231
+CER: 0.47692307692307695
+49----------------------------------------------------------------------------------------------------
+Reference: as ações planejadas querem equilibrar a radialidade marcada da rede existente
+Prediction: ariações pralengavas telatrepar a ra e alivade na cápida pueade esifonte
+WER: 1.0
+CER: 0.4805194805194805
+50----------------------------------------------------------------------------------------------------
+Reference: anda agora empurra vá vá daí a pouco estaria removido o obstáculo
+Prediction: venda agora empurra par patei a pouco estaria renovido ode estávad
+WER: 0.5833333333333334
+CER: 0.3076923076923077
+51----------------------------------------------------------------------------------------------------
+Reference: você deveria ser um cara inteligente
+Prediction: você deveria ser um cara inteligente
+WER: 0.0
+CER: 0.0
+52----------------------------------------------------------------------------------------------------
+Reference: marilac
+Prediction: marilaque
+WER: 1.0
+CER: 0.42857142857142855
+53----------------------------------------------------------------------------------------------------
+Reference: eu estava cansado
+Prediction: o ãno estava acansado
+WER: 1.0
+CER: 0.35294117647058826
+54----------------------------------------------------------------------------------------------------
+Reference: eu acho que o nome dela é olivia
+Prediction: eu acho que o mãmedela é o mil
+WER: 0.5
+CER: 0.21875
+55----------------------------------------------------------------------------------------------------
+Reference: edifício taipé
+Prediction: é difício tepe
+WER: 1.5
+CER: 0.35714285714285715
+56----------------------------------------------------------------------------------------------------
+Reference: armação dos búzios
+Prediction: a nação dos bujas
+WER: 1.0
+CER: 0.3333333333333333
+57----------------------------------------------------------------------------------------------------
+Reference: coloque uma música do doctor prats para animálos
+Prediction: elete uma mísica tedate de a peq para aniglos
+WER: 0.875
+CER: 0.4583333333333333
+58----------------------------------------------------------------------------------------------------
+Reference: a nova loja carrefour está prestes a começar a construção
+Prediction: a nova loja acar refuga está prestes a començar a construção
+WER: 0.3
+CER: 0.10526315789473684
+59----------------------------------------------------------------------------------------------------
+Reference: camilo ia andando inquieto e nervoso
+Prediction: karina e argarda peo quieta e grverjam
+WER: 1.0
+CER: 0.6111111111111112
+60----------------------------------------------------------------------------------------------------
+Reference: quatro
+Prediction: cuáa
+WER: 1.0
+CER: 0.8333333333333334
+61----------------------------------------------------------------------------------------------------
+Reference: passa quatro
+Prediction: passa quatro
+WER: 0.0
+CER: 0.0
+62----------------------------------------------------------------------------------------------------
+Reference: é difícil dar um tempo de cozimento para este prato
+Prediction: é difícil dar um tempo de cosamento para este prato
+WER: 0.1
+CER: 0.0392156862745098
+63----------------------------------------------------------------------------------------------------
+Reference: nazaré paulista
+Prediction: na vara nalista
+WER: 1.5
+CER: 0.3333333333333333
+64----------------------------------------------------------------------------------------------------
+Reference: morreu mas passa bem
+Prediction: norrei o mais passamento
+WER: 1.0
+CER: 0.5
+65----------------------------------------------------------------------------------------------------
+Reference: prevenção do delinquente juvenil
+Prediction: prevenção do delinquente jubelin
+WER: 0.25
+CER: 0.09375
+66----------------------------------------------------------------------------------------------------
+Reference: mas nada
+Prediction: naf maba
+WER: 1.0
+CER: 0.5
+67----------------------------------------------------------------------------------------------------
+Reference: um homem de casaco amarelo e azul pedindo ajuda a uma mulher
+Prediction: um homem de casaca mlado e untoqe desu alamera
+WER: 0.6666666666666666
+CER: 0.48333333333333334
+68----------------------------------------------------------------------------------------------------
+Reference: a infância é simples e bonita
+Prediction: a infância é siniples que bonita
+WER: 0.3333333333333333
+CER: 0.13793103448275862
+69----------------------------------------------------------------------------------------------------
+Reference: tenente portela
+Prediction: teneute portela
+WER: 0.5
+CER: 0.06666666666666667
+70----------------------------------------------------------------------------------------------------
+Reference: pegue as algemas e venha
+Prediction: pagará gamegabã
+WER: 1.0
+CER: 0.75
+71----------------------------------------------------------------------------------------------------
+Reference: o meu pai já não é novo
+Prediction: monepa já não é novo
+WER: 0.42857142857142855
+CER: 0.2608695652173913
+72----------------------------------------------------------------------------------------------------
+Reference: um jovem levanta seu skate na crista de uma rampa de skate
+Prediction: um jovem levanta seusquete na criaça de uma ranpa de isquete    m   tt
+WER: 0.5833333333333334
+CER: 0.27586206896551724
+73----------------------------------------------------------------------------------------------------
+Reference: novo jardim
+Prediction: um omeos jargipo
+WER: 1.5
+CER: 0.8181818181818182
+74----------------------------------------------------------------------------------------------------
+Reference: esperando
+Prediction: esperanda
+WER: 1.0
+CER: 0.1111111111111111
+75----------------------------------------------------------------------------------------------------
+Reference: um homem está sentado em uma pedra quadrada comendo seu almoço
+Prediction: um homem que está sentado em uma pede quadado comoendao su umo
+WER: 0.5454545454545454
+CER: 0.24193548387096775
+76----------------------------------------------------------------------------------------------------
+Reference: o título irá expressar brevemente o conteúdo de cada capítulo
+Prediction: o atitulo milas pefai vevenence o conteúdo de cara capítula
+WER: 0.6
+CER: 0.29508196721311475
+77----------------------------------------------------------------------------------------------------
+Reference: então o que está acontecendo
+Prediction: então o quastacao o tecei
+WER: 0.6
+CER: 0.39285714285714285
+78----------------------------------------------------------------------------------------------------
+Reference: também esperando pelo carro
+Prediction: tambémeste erado pelo carro
+WER: 0.5
+CER: 0.18518518518518517
+79----------------------------------------------------------------------------------------------------
+Reference: graccho cardoso
+Prediction: gracho a cardoas
+WER: 1.5
+CER: 0.3333333333333333
+80----------------------------------------------------------------------------------------------------
+Reference: você está trabalhando para crianças ou melhorando a indústria de computadores
+Prediction: você cra prabalhando ara crianças oumelarand a indústia de comptadores
+WER: 0.6363636363636364
+CER: 0.15584415584415584
+81----------------------------------------------------------------------------------------------------
+Reference: em resumo a sociedade civil espera que suas instituições públicas estejam do seu lado
+Prediction: um resume associedade fegiu esquerque e seuas instituições públicas espejam do celado
+WER: 0.7857142857142857
+CER: 0.21176470588235294
+82----------------------------------------------------------------------------------------------------
+Reference: na seção das propostas retornaremos sobre o assunto
+Prediction: naafução dess propastas retornaremos sobe o a sonta
+WER: 0.875
+CER: 0.19607843137254902
+83----------------------------------------------------------------------------------------------------
+Reference: nome da namorada de drake
+Prediction: nome do namorado de treik
+WER: 0.6
+CER: 0.24
+84----------------------------------------------------------------------------------------------------
+Reference: esse é o único jogo de xadrez que eu já joguei
+Prediction: este húnico nobe de xadrisqu eu já joguei
+WER: 0.6363636363636364
+CER: 0.2608695652173913
+85----------------------------------------------------------------------------------------------------
+Reference: duas crianças estão jogando hóquei no gelo no chão congelado lá fora
+Prediction: duas crianças estão jogando foquem um gelos um chão comvelado lá fora
+WER: 0.4166666666666667
+CER: 0.14705882352941177
+86----------------------------------------------------------------------------------------------------
+Reference: o patinet não funciona bem na calçada
+Prediction: fastinetes não funciona bem nacalçada
+WER: 0.5714285714285714
+CER: 0.1891891891891892
+87----------------------------------------------------------------------------------------------------
+Reference: vender a privacidade é conveniente
+Prediction: vendeiu a privarcidade a congenhetos
+WER: 0.8
+CER: 0.2647058823529412
+88----------------------------------------------------------------------------------------------------
+Reference: enquanto ajuda a comprar e vender na loja
+Prediction: enquante ajuda compra e venduei na loja
+WER: 0.5
+CER: 0.14634146341463414
+89----------------------------------------------------------------------------------------------------
+Reference: águas passadas não movem moinhos
+Prediction: águas passavas não loge em noís
+WER: 0.8
+CER: 0.28125
+90----------------------------------------------------------------------------------------------------
+Reference: o tempo é uma cura para a raiva
+Prediction: o tem foi uma cora para a raiva
+WER: 0.375
+CER: 0.16129032258064516
+91----------------------------------------------------------------------------------------------------
+Reference: segure o controle
+Prediction: seguro encontrole
+WER: 1.0
+CER: 0.17647058823529413
+92----------------------------------------------------------------------------------------------------
+Reference: afirmando os resultados da reabilitação ecológica
+Prediction: afirmanda os resultados da reabilitação ecológica
+WER: 0.16666666666666666
+CER: 0.02040816326530612
+93----------------------------------------------------------------------------------------------------
+Reference: recebi a mensagem de ontem
+Prediction: recebia mensagem de ontem
+WER: 0.4
+CER: 0.038461538461538464
+94----------------------------------------------------------------------------------------------------
+Reference: a beleza da vida que expressa os arranjos de flores das mulheres
+Prediction: abeleza da avida que expessa os arrans de flores das mulheres
+WER: 0.4166666666666667
+CER: 0.078125
+95----------------------------------------------------------------------------------------------------
+Reference: você só você é o autor desta morte
+Prediction: você só você é o autoro desta morte
+WER: 0.125
+CER: 0.029411764705882353
+96----------------------------------------------------------------------------------------------------
+Reference: eu não gosto da chuva
+Prediction: eu não gosta da chuva
+WER: 0.2
+CER: 0.047619047619047616
+97----------------------------------------------------------------------------------------------------
+Reference: o que você tem aí
+Prediction: o que você tem a e
+WER: 0.4
+CER: 0.11764705882352941
+98----------------------------------------------------------------------------------------------------
+Reference: eu vou desligar
+Prediction: eu vou desligar
+WER: 0.0
+CER: 0.0
+99----------------------------------------------------------------------------------------------------
+Reference: perguntou às pessoas ao seu redor
+Prediction: perguntou as pessoas ao seu redor
+WER: 0.16666666666666666
+CER: 0.030303030303030304
+Final WER: 0.5125024138722768
+Final CER: 0.28142220060068573
+
+Process finished with exit code 0
+

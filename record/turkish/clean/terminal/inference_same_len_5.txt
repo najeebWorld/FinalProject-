@@ -1,0 +1,231 @@
+
+0----------------------------------------------------------------------------------------------------
+Reference: heme eş sol elraz
+Prediction: bana bir şey olmaz
+WER: 1.0
+CER: 0.7058823529411765
+1----------------------------------------------------------------------------------------------------
+Reference: nefenanluru tari henüz medinlende
+Prediction: referandum tarihi henüz belirlenmedi
+WER: 0.75
+CER: 0.3939393939393939
+2----------------------------------------------------------------------------------------------------
+Reference: k
+Prediction: silahlar…
+WER: 1.0
+CER: 9.0
+3----------------------------------------------------------------------------------------------------
+Reference: her yaçtan takasçı geliyor
+Prediction: her yaştan takasçı geliyor
+WER: 0.25
+CER: 0.038461538461538464
+4----------------------------------------------------------------------------------------------------
+Reference: saferlar vzılan ayınıda başlıyor
+Prediction: seferler haziran ayında başlıyor
+WER: 0.75
+CER: 0.21875
+5----------------------------------------------------------------------------------------------------
+Reference: ben de eşim var
+Prediction: benim bir işim var
+WER: 0.75
+CER: 0.4
+6----------------------------------------------------------------------------------------------------
+Reference: hitkinlik girim ikim bayısa kadar açık kalacak
+Prediction: etkinlik yirmi iki mayıs'a kadar açık kalacak
+WER: 0.5714285714285714
+CER: 0.17391304347826086
+7----------------------------------------------------------------------------------------------------
+Reference: sanedenş vöveve icem san tevey acen israet iciği binini öğç
+Prediction: fona başvuru için son tarih otuz mart iki bin üç
+WER: 1.0
+CER: 0.6101694915254238
+8----------------------------------------------------------------------------------------------------
+Reference: kasedinet kesi büyük ollu
+Prediction: kasedin etkisi büyük oldu
+WER: 0.75
+CER: 0.16
+9----------------------------------------------------------------------------------------------------
+Reference: bunun değitmetteni beklemiyorum
+Prediction: bunun değişmesini beklemiyorum
+WER: 0.3333333333333333
+CER: 0.12903225806451613
+10----------------------------------------------------------------------------------------------------
+Reference: faranarında perk şuh muntec var
+Prediction: aralarında pek çok mülteci var
+WER: 0.8
+CER: 0.2903225806451613
+11----------------------------------------------------------------------------------------------------
+Reference: hanaotas ol danca
+Prediction: hemen köşeyi dönünce
+WER: 1.0
+CER: 0.8823529411764706
+12----------------------------------------------------------------------------------------------------
+Reference: gecre elfeyi yikatı lıyorunuz
+Prediction: biz realiteyi dikkate alıyoruz
+WER: 1.0
+CER: 0.4827586206896552
+13----------------------------------------------------------------------------------------------------
+Reference: sanalarap bılapmıştım
+Prediction: sallanarak uzaklaştım
+WER: 1.0
+CER: 0.47619047619047616
+14----------------------------------------------------------------------------------------------------
+Reference: yujının gönıçmenen ben çok kimseye çışırkıyor
+Prediction: yaşanan gelişmeler pek çok kimseyi şaşırtıyor
+WER: 0.8333333333333334
+CER: 0.35555555555555557
+15----------------------------------------------------------------------------------------------------
+Reference: i̇çin de ler kalmışta kanışmanan erim severdi
+Prediction: i̇çimde yarı kalmış bir konuşmanın üzüntüsü vardı
+WER: 1.0
+CER: 0.4888888888888889
+16----------------------------------------------------------------------------------------------------
+Reference: bahiş soneleleri açşıknı kavetde seçidi
+Prediction: bağış önerileri açık rekabetle seçiliyor
+WER: 1.0
+CER: 0.41025641025641024
+17----------------------------------------------------------------------------------------------------
+Reference: saldınnın saranlanarını hernüzır denen olmadı
+Prediction: saldırının sorumluluğunu henüz üstlenen olmadı
+WER: 0.8
+CER: 0.37777777777777777
+18----------------------------------------------------------------------------------------------------
+Reference: anlaşma bir ocaktan yürürleye girecek
+Prediction: anlaşma bir ocak'ta yürürlüğe girecek
+WER: 0.4
+CER: 0.10810810810810811
+19----------------------------------------------------------------------------------------------------
+Reference: litme klenmeyız
+Prediction: gitmek zorundayız
+WER: 1.0
+CER: 0.5333333333333333
+20----------------------------------------------------------------------------------------------------
+Reference: hey
+Prediction: hey
+WER: 0.0
+CER: 0.0
+21----------------------------------------------------------------------------------------------------
+Reference: ekli
+Prediction: iki
+WER: 1.0
+CER: 0.5
+22----------------------------------------------------------------------------------------------------
+Reference: denemeler başıranı geçti
+Prediction: denemeler başarılı geçti
+WER: 0.3333333333333333
+CER: 0.125
+23----------------------------------------------------------------------------------------------------
+Reference: hatta sürdürmeye mejburlar
+Prediction: hatta sürdürmeye mecburlar
+WER: 0.3333333333333333
+CER: 0.038461538461538464
+24----------------------------------------------------------------------------------------------------
+Reference: okuz
+Prediction: dokuz
+WER: 1.0
+CER: 0.25
+25----------------------------------------------------------------------------------------------------
+Reference: ağıyor
+Prediction: hayır
+WER: 1.0
+CER: 0.6666666666666666
+26----------------------------------------------------------------------------------------------------
+Reference: bratamaaz ta sapsonı lamaç olulata
+Prediction: üretimin yüzde sekseni ihraç edilecek
+WER: 1.0
+CER: 0.7352941176470589
+27----------------------------------------------------------------------------------------------------
+Reference: riştune lediniz besna dükan açma azımdan
+Prediction: priştineli bir esnaf dükkan açmaya hazırlanıyor
+WER: 1.0
+CER: 0.5
+28----------------------------------------------------------------------------------------------------
+Reference: hal ne kaşnız
+Prediction: hey ne yapıyorsunuz
+WER: 0.6666666666666666
+CER: 0.8461538461538461
+29----------------------------------------------------------------------------------------------------
+Reference: pufataraf
+Prediction: kapatıyoruz
+WER: 1.0
+CER: 0.8888888888888888
+30----------------------------------------------------------------------------------------------------
+Reference: bakarcı daha sonra olaydakir onuna itiraf etti
+Prediction: bakarciev daha sonra olaydaki rolünü itiraf etti
+WER: 0.42857142857142855
+CER: 0.17391304347826086
+31----------------------------------------------------------------------------------------------------
+Reference: bölyene yinlanın işpinleye çözümü katkında pulununa bilirimi
+Prediction: bölgede yenilenen işbirliği çözüme katkıda bulunaabilir mi
+WER: 1.0
+CER: 0.3
+32----------------------------------------------------------------------------------------------------
+Reference: kurulaşın genece ineyinyini ön görüneyendiniz neler
+Prediction: kuruluşun geleceği ile ilgili öngörüleriniz neler
+WER: 0.8333333333333334
+CER: 0.3137254901960784
+33----------------------------------------------------------------------------------------------------
+Reference: mesajı ileten hasanın gözleri yaşra doldu
+Prediction: mesajı ileten hasan'ın gözleri yaşla doldu
+WER: 0.3333333333333333
+CER: 0.04878048780487805
+34----------------------------------------------------------------------------------------------------
+Reference: seyeceğe yetgilleri yanıp varmekte gecipmediler
+Prediction: sc yetkilileri yanıt vermekte gecikmediler
+WER: 1.0
+CER: 0.23404255319148937
+35----------------------------------------------------------------------------------------------------
+Reference: başka bil kanaldan de atleferler be şatırdı
+Prediction: başka bir kanaldan da adli işlemler başlatıldı
+WER: 0.7142857142857143
+CER: 0.3023255813953488
+36----------------------------------------------------------------------------------------------------
+Reference: bulgar tıkımı kıprası üç sufuryanerek birince oldu
+Prediction: bulgar takımı kıbrıs'ı üçsıfır yenerek birinci oldu
+WER: 0.7142857142857143
+CER: 0.2
+37----------------------------------------------------------------------------------------------------
+Reference: ödül iki milyon avra olacak
+Prediction: ödül iki milyon avro olacak
+WER: 0.2
+CER: 0.037037037037037035
+38----------------------------------------------------------------------------------------------------
+Reference: tur nuvar yavnıt izporen bafan pardufe olduu
+Prediction: turnuvaya on üç ülkeden doksan sporcu katıldı
+WER: 1.0
+CER: 0.6136363636363636
+39----------------------------------------------------------------------------------------------------
+Reference: onun olmasın istemiyoruz
+Prediction: bunun olmasını istemiyoruz
+WER: 0.6666666666666666
+CER: 0.125
+40----------------------------------------------------------------------------------------------------
+Reference: her insan bere yakışı vaydır
+Prediction: her inişin bir yokuşu vardır
+WER: 0.8
+CER: 0.32142857142857145
+41----------------------------------------------------------------------------------------------------
+Reference: zaverde düsmenin kayına dasken atis atılsın
+Prediction: yağmurda düşmanın koyunu dostun atı satılsın
+WER: 1.0
+CER: 0.3953488372093023
+42----------------------------------------------------------------------------------------------------
+Reference: kadiş muhamet liseye gidiyordu
+Prediction: kardeşi muhamed liseye gidiyordu
+WER: 0.5
+CER: 0.13333333333333333
+43----------------------------------------------------------------------------------------------------
+Reference: pek çauda proman tapromundan mikal yor
+Prediction: pek çoğu da roman toplumundan geliyor
+WER: 0.8333333333333334
+CER: 0.3157894736842105
+44----------------------------------------------------------------------------------------------------
+Reference: geçiş ülkelerinde yaşananlar ise karaşılar
+Prediction: geçiş ülkelerinde yaşananlar ise karışık
+WER: 0.2
+CER: 0.09523809523809523
+Final WER: 0.21817927170868343
+Final CER: 0.15551269390386988
+
+Process finished with exit code 0
+

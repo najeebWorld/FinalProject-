@@ -1,0 +1,260 @@
+0----------------------------------------------------------------------------------------------------
+Reference: bir şeyrer epalıyız
+Prediction: bir şeyler yapmalıyız
+WER: 0.6666666666666666
+CER: 0.21052631578947367
+1----------------------------------------------------------------------------------------------------
+Reference: heydi yu şimdi ikim evkidi hayretti
+Prediction: seydiu şimdi iki mevkiyi de kaybetti
+WER: 1.0
+CER: 0.3142857142857143
+2----------------------------------------------------------------------------------------------------
+Reference: katilin hasit çencenvar olarak veline büyük bir hayhon olduğuru düştnürünüyordu
+Prediction: katilin basitçe canavar olarak bilinen büyük bir hayvan olduğu düşünülüyordu
+WER: 0.6
+CER: 0.20253164556962025
+3----------------------------------------------------------------------------------------------------
+Reference: bahse girerim uzaklara gönderlen bir hediye
+Prediction: bahse girerim uzaklara gönderilen bir hediye
+WER: 0.16666666666666666
+CER: 0.023255813953488372
+4----------------------------------------------------------------------------------------------------
+Reference: siyaslık yapimizimisi une ydumuz var
+Prediction: siyasette temiz insanlara ihtiyacımız var
+WER: 0.8
+CER: 0.6944444444444444
+5----------------------------------------------------------------------------------------------------
+Reference: panambır şey olmaz ş
+Prediction: bana bir şey olmaz
+WER: 0.75
+CER: 0.25
+6----------------------------------------------------------------------------------------------------
+Reference: evet hastınma
+Prediction: evet aslında
+WER: 0.5
+CER: 0.23076923076923078
+7----------------------------------------------------------------------------------------------------
+Reference: nefenanlun tahi hemir beninle
+Prediction: referandum tarihi henüz belirlenmedi
+WER: 1.0
+CER: 0.5517241379310345
+8----------------------------------------------------------------------------------------------------
+Reference: eneme
+Prediction: silahlar…
+WER: 1.0
+CER: 1.8
+9----------------------------------------------------------------------------------------------------
+Reference: hancak yaratığına de basit kalık kan ikte bağarıksa süre deoğlduk çekarmeşikale yeldi
+Prediction: ancak yaratığın adı basit kalırken itibarı kısa sürede oldukça karmaşık hale geldi
+WER: 0.9166666666666666
+CER: 0.29411764705882354
+10----------------------------------------------------------------------------------------------------
+Reference: eçettaa çma bu onsann merhan lahhene alertal
+Prediction: atık yönetimi bir ülkenin yaşam tarzını yansıtır
+WER: 1.0
+CER: 0.7954545454545454
+11----------------------------------------------------------------------------------------------------
+Reference: hetkinlik girimiikim bayı se kadar öçük kalacak
+Prediction: etkinlik yirmi iki mayıs'a kadar açık kalacak
+WER: 0.7142857142857143
+CER: 0.23404255319148937
+12----------------------------------------------------------------------------------------------------
+Reference: i̇nsan dahsınün kusurunden doan bir durum
+Prediction: i̇nsan doğasının kusurundan doğan bir durum
+WER: 0.5
+CER: 0.14634146341463414
+13----------------------------------------------------------------------------------------------------
+Reference: vetırlamıyor musun
+Prediction: hatırlamıyor musun
+WER: 0.5
+CER: 0.1111111111111111
+14----------------------------------------------------------------------------------------------------
+Reference: bunun değitmenene beklemiyoru
+Prediction: bunun değişmesini beklemiyorum
+WER: 0.6666666666666666
+CER: 0.1724137931034483
+15----------------------------------------------------------------------------------------------------
+Reference: hemen köşeyi dönünce
+Prediction: hemen köşeyi dönünce
+WER: 0.0
+CER: 0.0
+16----------------------------------------------------------------------------------------------------
+Reference: beceer seni gikkatı alıyoruz
+Prediction: biz realiteyi dikkate alıyoruz
+WER: 0.75
+CER: 0.39285714285714285
+17----------------------------------------------------------------------------------------------------
+Reference: bunu zafen biliyorsun
+Prediction: bunu zaten biliyorsun
+WER: 0.3333333333333333
+CER: 0.047619047619047616
+18----------------------------------------------------------------------------------------------------
+Reference: sallamarak uzakmaştım
+Prediction: sallanarak uzaklaştım
+WER: 1.0
+CER: 0.09523809523809523
+19----------------------------------------------------------------------------------------------------
+Reference: acının geçmeler ve çok kimze çeşırtıyor
+Prediction: yaşanan gelişmeler pek çok kimseyi şaşırtıyor
+WER: 0.8333333333333334
+CER: 0.358974358974359
+20----------------------------------------------------------------------------------------------------
+Reference: i̇çimde yara kalmış bir kanışmanın ecensi vardı
+Prediction: i̇çimde yarı kalmış bir konuşmanın üzüntüsü vardı
+WER: 0.42857142857142855
+CER: 0.19148936170212766
+21----------------------------------------------------------------------------------------------------
+Reference: bul senen arabanma bb
+Prediction: bu senin araban mı
+WER: 1.0
+CER: 0.2857142857142857
+22----------------------------------------------------------------------------------------------------
+Reference: saldarınnın saramlırlağını henesiz denen olmadı
+Prediction: saldırının sorumluluğunu henüz üstlenen olmadı
+WER: 0.8
+CER: 0.3404255319148936
+23----------------------------------------------------------------------------------------------------
+Reference: anlaşma bir ocakta yürürleye girecek
+Prediction: anlaşma bir ocak'ta yürürlüğe girecek
+WER: 0.4
+CER: 0.08333333333333333
+24----------------------------------------------------------------------------------------------------
+Reference: gitmek zorundayız
+Prediction: gitmek zorundayız
+WER: 0.0
+CER: 0.0
+25----------------------------------------------------------------------------------------------------
+Reference: hey
+Prediction: hey
+WER: 0.0
+CER: 0.0
+26----------------------------------------------------------------------------------------------------
+Reference: ekin
+Prediction: iki
+WER: 1.0
+CER: 0.5
+27----------------------------------------------------------------------------------------------------
+Reference: ne yapabileceğime bakarım
+Prediction: ne yapabileceğime bakarım
+WER: 0.0
+CER: 0.0
+28----------------------------------------------------------------------------------------------------
+Reference: i̇şte gördü mü
+Prediction: i̇şte gördün mü
+WER: 0.3333333333333333
+CER: 0.07142857142857142
+29----------------------------------------------------------------------------------------------------
+Reference: hatda sürdürmeyen mecburlar
+Prediction: hatta sürdürmeye mecburlar
+WER: 0.6666666666666666
+CER: 0.07407407407407407
+30----------------------------------------------------------------------------------------------------
+Reference: hukuz
+Prediction: dokuz
+WER: 1.0
+CER: 0.4
+31----------------------------------------------------------------------------------------------------
+Reference: ağlıyor
+Prediction: hayır
+WER: 1.0
+CER: 0.7142857142857143
+32----------------------------------------------------------------------------------------------------
+Reference: dağatımcı firimalarıf yafları haksız yere müyükser doğum
+Prediction: dağıtımcı firmalar fiyatları haksız yere mi yükseltiyor
+WER: 0.7142857142857143
+CER: 0.25
+33----------------------------------------------------------------------------------------------------
+Reference: aladak porayaca kadanmez
+Prediction: alacakla verecek ödenmez
+WER: 1.0
+CER: 0.5416666666666666
+34----------------------------------------------------------------------------------------------------
+Reference: kapakıyoruz
+Prediction: kapatıyoruz
+WER: 1.0
+CER: 0.09090909090909091
+35----------------------------------------------------------------------------------------------------
+Reference: bakaci evdağ sonra olaydakir onunu itraf etti
+Prediction: bakarciev daha sonra olaydaki rolünü itiraf etti
+WER: 0.7142857142857143
+CER: 0.24444444444444444
+36----------------------------------------------------------------------------------------------------
+Reference: bir sürü gazede kapıtılıyor
+Prediction: bir sürü gazete kapatılıyor
+WER: 0.5
+CER: 0.07407407407407407
+37----------------------------------------------------------------------------------------------------
+Reference: böl yene inlenın işmirleye çözümün katkında bulununabilirimi
+Prediction: bölgede yenilenen işbirliği çözüme katkıda bulunaabilir mi
+WER: 1.0
+CER: 0.2833333333333333
+38----------------------------------------------------------------------------------------------------
+Reference: kuruluşun geneceği ieyenleri ön görüleyenniz neler
+Prediction: kuruluşun geleceği ile ilgili öngörüleriniz neler
+WER: 0.6666666666666666
+CER: 0.24
+39----------------------------------------------------------------------------------------------------
+Reference: mesajı illeten halsanın gözleri yaşle doldu
+Prediction: mesajı ileten hasan'ın gözleri yaşla doldu
+WER: 0.5
+CER: 0.09302325581395349
+40----------------------------------------------------------------------------------------------------
+Reference: seyeceğe yetkilleri yanıp vermekte gecikmediler
+Prediction: sc yetkilileri yanıt vermekte gecikmediler
+WER: 0.6
+CER: 0.1702127659574468
+41----------------------------------------------------------------------------------------------------
+Reference: bazı sır pakandaşları yeni provganbı destekliyor
+Prediction: bazı sırp vatandaşları yeni programı destekliyor
+WER: 0.5
+CER: 0.14583333333333334
+42----------------------------------------------------------------------------------------------------
+Reference: ödür iki milyom avru olacak
+Prediction: ödül iki milyon avro olacak
+WER: 0.6
+CER: 0.1111111111111111
+43----------------------------------------------------------------------------------------------------
+Reference: eyale senatosuma da bir ziyaret dilerlendi
+Prediction: eyalet senatosuna da bir ziyaret düzenlendi
+WER: 0.5
+CER: 0.11904761904761904
+44----------------------------------------------------------------------------------------------------
+Reference: onun olmasın istemiyoruz
+Prediction: bunun olmasını istemiyoruz
+WER: 0.6666666666666666
+CER: 0.125
+45----------------------------------------------------------------------------------------------------
+Reference: her insin beri yokusu vardı
+Prediction: her inişin bir yokuşu vardır
+WER: 0.8
+CER: 0.2222222222222222
+46----------------------------------------------------------------------------------------------------
+Reference: yavmığırda düşmanın koyunu dostun atı satız
+Prediction: yağmurda düşmanın koyunu dostun atı satılsın
+WER: 0.3333333333333333
+CER: 0.18604651162790697
+47----------------------------------------------------------------------------------------------------
+Reference: konuttan sonraki önceni keyidim
+Prediction: konuttan sonraki öncelik eğitim
+WER: 0.5
+CER: 0.16129032258064516
+48----------------------------------------------------------------------------------------------------
+Reference: fakat bunarınc oğu gezlerin hiktar ettiler
+Prediction: fakat bunların çoğu gezilerini iptal ettiler
+WER: 0.6666666666666666
+CER: 0.19047619047619047
+49----------------------------------------------------------------------------------------------------
+Reference: kardeşim muhamet lüseye gidiyordu
+Prediction: kardeşi muhamed liseye gidiyordu
+WER: 0.75
+CER: 0.09090909090909091
+50----------------------------------------------------------------------------------------------------
+Reference: geçiş ürkelerinde yaşananılar disse karaşalık
+Prediction: geçiş ülkelerinde yaşananlar ise karışık
+WER: 0.8
+CER: 0.15555555555555556
+Final WER: 0.26525379382522246
+Final CER: 0.11395569213415542
+
+Process finished with exit code 0
+

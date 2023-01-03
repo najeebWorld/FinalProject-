@@ -1,0 +1,1143 @@
+----------------- Checking if cuda is available... -----------------
+Cuda Available = True
+
+
+----------------- Loading Datasets... -----------------
+Found cached dataset common_voice_11_0 (/home/or/.cache/huggingface/datasets/mozilla-foundation___common_voice_11_0/ar/11.0.0/8975395f1d50a6b61f707acd3416761702d3b25412f5fb1004e1db51fe7c304a)
+Found cached dataset common_voice_11_0 (/home/or/.cache/huggingface/datasets/mozilla-foundation___common_voice_11_0/ar/11.0.0/8975395f1d50a6b61f707acd3416761702d3b25412f5fb1004e1db51fe7c304a)
+----------------- Loading Datasets complete. -----------------
+
+
+----------------- Removing special characters... -----------------
+Parameter 'function'=<function remove_special_characters at 0x7fd920908af0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28043/28043 [00:00<00:00, 39888.86ex/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10438/10438 [00:00<00:00, 42049.47ex/s]
+----------------- Removing special characters complete. -----------------
+
+
+----------------- Extracting all characters... -----------------
+  0%|                                                                                                                                                   | 0/1 [00:00<?, ?ba/s]
+  0%|                                                                                                                                                   | 0/1 [00:00<?, ?ba/s]
+----------------- Extracting all characters complete. -----------------
+
+
+----------------- Preparing vocab... -----------------
+Vocab_dict: {'ى': 0, 'ك': 1, 'ۚ': 2, '☭': 3, 'ش': 4, 'إ': 5, 'ڨ': 6, 'ـ': 7, 'ض': 8, 'آ': 9, 'ٰ': 10, 't': 11, 'ت': 12, 'x': 13, 'ف': 14, 'n': 15, 'ﻻ': 16, 'ذ': 17, 'ّ': 18, 'م': 19, 'ک': 20, 'ؤ': 21, 'r': 22, 'ِ': 23, 'ئ': 24, 'ظ': 25, 'ع': 26, 'ح': 27, ' ': 28, 'ٍ': 29, 'l': 30, 'ص': 31, 'ا': 32, 'ق': 33, 'خ': 34, 'ر': 35, 'ۖ': 36, 'w': 37, 'ل': 38, 's': 39, 'a': 40, 'ط': 41, 'س': 42, 'ۛ': 43, 'ز': 44, 'ج': 45, 'f': 46, 'd': 47, 'أ': 48, 'ث': 49, 'چ': 50, 'e': 51, 'ي': 52, 'ن': 53, 'y': 54, 'د': 55, 'ۗ': 56, 'َ': 57, 'ً': 58, 'و': 59, 'ُ': 60, 'ﺃ': 61, 'ة': 62, 'h': 63, '-': 64, 'o': 65, 'u': 66, 'c': 67, 'ء': 68, 'ب': 69, 'ھ': 70, 'ٌ': 71, 'ۘ': 72, 'g': 73, 'ْ': 74, 'i': 75, 'ه': 76, 'ی': 77, 'غ': 78, 'm': 79}
+Vocab_len: 82
+----------------- Preparing vocab complete. -----------------
+
+
+----------------- Saving vocab to jason... -----------------
+----------------- Saving vocab to jason complete. -----------------
+
+
+sample path: /home/or/.cache/huggingface/datasets/downloads/extracted/1da5b6277308d1bd3213818b6a1b8fb398a6b055abf7cbd700b0f3ac2c796a3d/cv-corpus-11.0-2022-09-21/ar/clips/common_voice_ar_19225971.mp3
+
+Sanity Check sampling rate is 48khz: {'path': '/home/or/.cache/huggingface/datasets/downloads/extracted/1da5b6277308d1bd3213818b6a1b8fb398a6b055abf7cbd700b0f3ac2c796a3d/cv-corpus-11.0-2022-09-21/ar/clips/common_voice_ar_19225971.mp3', 'array': array([ 0.0000000e+00,  0.0000000e+00,  0.0000000e+00, ...,
+        2.3667126e-06, -2.5793133e-06,  6.8762515e-06], dtype=float32), 'sampling_rate': 48000}
+
+----------------- Resampling to 16khz... -----------------
+Making sure the sampling rate changed to 16khz {'path': '/home/or/.cache/huggingface/datasets/downloads/extracted/1da5b6277308d1bd3213818b6a1b8fb398a6b055abf7cbd700b0f3ac2c796a3d/cv-corpus-11.0-2022-09-21/ar/clips/common_voice_ar_19225971.mp3', 'array': array([0.0000000e+00, 0.0000000e+00, 0.0000000e+00, ..., 3.9961551e-06,
+       8.9953237e-06, 6.5385566e-06], dtype=float32), 'sampling_rate': 16000}
+----------------- Resampling complete. -----------------
+
+
+----------------- Preparing datasets... -----------------
+#0:   0%|                                                                                                                                            | 0/7011 [00:00<?, ?ex/s]
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.%|                                                                                                                                            | 0/7010 [00:00<?, ?ex/s]
+  warnings.warn(
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+#0:   0%|                                                                                                                                    | 1/7011 [00:00<12:11,  9.59ex/s]/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+#3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7010/7010 [11:04<00:00, 10.56ex/s]
+#2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7011/7011 [11:06<00:00, 10.52ex/s]
+#1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7011/7011 [11:13<00:00, 10.41ex/s]
+#0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7011/7011 [11:14<00:00, 10.40ex/s]
+#0:   0%|                                                                                                                                            | 0/2610 [00:00<?, ?ex/s]
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.%|                                                                                                                                            | 0/2609 [00:00<?, ?ex/s]
+  warnings.warn(
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+#3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2609/2609 [04:19<00:00, 10.07ex/s]
+#2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2609/2609 [04:22<00:00,  9.93ex/s]
+#0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2610/2610 [04:26<00:00,  9.79ex/s]
+#1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2610/2610 [04:26<00:00,  9.78ex/s]
+#1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2610/2610 [04:26<00:00, 36.38ex/s]
+
+----------------- Preparing datasets complete. -----------------
+
+
+----------------- Loading Metrics... -----------------
+/home/or/Desktop/wav2vec2/main.py:215: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+----------------- Loading Metrics complete. -----------------
+
+
+----------------- Loading Model... -----------------
+Some weights of the model checkpoint at facebook/wav2vec2-large-xlsr-53 were not used when initializing Wav2Vec2ForCTC: ['project_hid.weight', 'project_q.bias', 'project_hid.bias', 'quantizer.weight_proj.bias', 'quantizer.codevectors', 'quantizer.weight_proj.weight', 'project_q.weight']
+- This IS expected if you are initializing Wav2Vec2ForCTC from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Wav2Vec2ForCTC from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-large-xlsr-53 and are newly initialized: ['lm_head.weight', 'lm_head.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+----------------- Loading Model complete. -----------------
+
+
+Using cuda_amp half precision backend
+----------------- Training... -----------------
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 28043
+  Num Epochs = 10
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 32
+  Gradient Accumulation steps = 2
+  Total optimization steps = 8760
+  Number of trainable parameters = 311312594
+  0%|                                                                                                                                                | 0/8760 [00:00<?, ?it/s]/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 17.0172, 'learning_rate': 4.8e-06, 'epoch': 0.01}                                                                                                                    
+{'loss': 20.8398, 'learning_rate': 1.0799999999999998e-05, 'epoch': 0.02}                                                                                                     
+{'loss': 24.2466, 'learning_rate': 1.6199999999999997e-05, 'epoch': 0.03}                                                                                                     
+{'loss': 26.3657, 'learning_rate': 2.2199999999999998e-05, 'epoch': 0.05}                                                                                                     
+{'loss': 27.6198, 'learning_rate': 2.8199999999999998e-05, 'epoch': 0.06}                                                                                                     
+{'loss': 16.4258, 'learning_rate': 3.42e-05, 'epoch': 0.07}                                                                                                                   
+{'loss': 19.5955, 'learning_rate': 4.02e-05, 'epoch': 0.08}                                                                                                                   
+{'loss': 17.7846, 'learning_rate': 4.62e-05, 'epoch': 0.09}                                                                                                                   
+{'loss': 12.0399, 'learning_rate': 5.2199999999999995e-05, 'epoch': 0.1}                                                                                                      
+{'loss': 9.7589, 'learning_rate': 5.82e-05, 'epoch': 0.11}                                                                                                                    
+  1%|█▌                                                                                                                                  | 100/8760 [02:34<2:15:09,  1.07it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 6.665993690490723, 'eval_wer': 1.0, 'eval_cer': 0.9942031091094, 'eval_runtime': 410.0313, 'eval_samples_per_second': 25.457, 'eval_steps_per_second': 3.183, 'epoch': 0.11}                                                                                                                                                                  
+{'loss': 5.4085, 'learning_rate': 6.419999999999999e-05, 'epoch': 0.13}                                                                                                       
+{'loss': 4.9527, 'learning_rate': 7.02e-05, 'epoch': 0.14}                                                                                                                    
+{'loss': 4.493, 'learning_rate': 7.62e-05, 'epoch': 0.15}                                                                                                                     
+{'loss': 4.1281, 'learning_rate': 8.22e-05, 'epoch': 0.16}                                                                                                                    
+{'loss': 3.9508, 'learning_rate': 8.819999999999999e-05, 'epoch': 0.17}                                                                                                       
+{'loss': 3.6358, 'learning_rate': 9.419999999999999e-05, 'epoch': 0.18}                                                                                                       
+{'loss': 3.546, 'learning_rate': 0.0001002, 'epoch': 0.19}                                                                                                                    
+{'loss': 3.5105, 'learning_rate': 0.00010619999999999998, 'epoch': 0.21}                                                                                                      
+{'loss': 3.4746, 'learning_rate': 0.00011219999999999999, 'epoch': 0.22}                                                                                                      
+{'loss': 3.4567, 'learning_rate': 0.0001182, 'epoch': 0.23}                                                                                                                   
+  2%|███                                                                                                                                 | 200/8760 [11:56<2:11:38,  1.08it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 3.437878370285034, 'eval_wer': 1.0, 'eval_cer': 0.9942031091094, 'eval_runtime': 409.4351, 'eval_samples_per_second': 25.494, 'eval_steps_per_second': 3.187, 'epoch': 0.23}                                                                                                                                                                  
+{'loss': 3.4972, 'learning_rate': 0.00012419999999999998, 'epoch': 0.24}                                                                                                      
+{'loss': 3.4175, 'learning_rate': 0.0001302, 'epoch': 0.25}                                                                                                                   
+{'loss': 3.4064, 'learning_rate': 0.0001362, 'epoch': 0.26}                                                                                                                   
+{'loss': 3.4167, 'learning_rate': 0.0001422, 'epoch': 0.27}                                                                                                                   
+{'loss': 3.4715, 'learning_rate': 0.0001482, 'epoch': 0.29}                                                                                                                   
+{'loss': 3.5033, 'learning_rate': 0.00015419999999999998, 'epoch': 0.3}                                                                                                       
+{'loss': 3.3834, 'learning_rate': 0.0001602, 'epoch': 0.31}                                                                                                                   
+{'loss': 3.3961, 'learning_rate': 0.0001662, 'epoch': 0.32}                                                                                                                   
+{'loss': 3.4083, 'learning_rate': 0.00017219999999999998, 'epoch': 0.33}                                                                                                      
+{'loss': 3.4506, 'learning_rate': 0.00017819999999999997, 'epoch': 0.34}                                                                                                      
+  3%|████▌                                                                                                                               | 300/8760 [21:15<2:10:36,  1.08it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 3.393646478652954, 'eval_wer': 1.0, 'eval_cer': 0.9942031091094, 'eval_runtime': 411.0269, 'eval_samples_per_second': 25.395, 'eval_steps_per_second': 3.175, 'epoch': 0.34}                                                                                                                                                                  
+{'loss': 3.3999, 'learning_rate': 0.00018419999999999998, 'epoch': 0.35}                                                                                                      
+{'loss': 3.3722, 'learning_rate': 0.0001902, 'epoch': 0.37}                                                                                                                   
+{'loss': 3.417, 'learning_rate': 0.0001962, 'epoch': 0.38}                                                                                                                    
+{'loss': 3.4105, 'learning_rate': 0.0002022, 'epoch': 0.39}                                                                                                                   
+{'loss': 3.4524, 'learning_rate': 0.00020819999999999996, 'epoch': 0.4}                                                                                                       
+{'loss': 3.4866, 'learning_rate': 0.00021419999999999998, 'epoch': 0.41}                                                                                                      
+{'loss': 3.3792, 'learning_rate': 0.00022019999999999999, 'epoch': 0.42}                                                                                                      
+{'loss': 3.3683, 'learning_rate': 0.00022619999999999997, 'epoch': 0.43}                                                                                                      
+{'loss': 3.3778, 'learning_rate': 0.00023219999999999998, 'epoch': 0.44}                                                                                                      
+{'loss': 3.3636, 'learning_rate': 0.0002382, 'epoch': 0.46}                                                                                                                   
+  5%|██████                                                                                                                              | 400/8760 [30:36<2:10:53,  1.06it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 3.392822504043579, 'eval_wer': 1.0, 'eval_cer': 0.9942031091094, 'eval_runtime': 411.4757, 'eval_samples_per_second': 25.367, 'eval_steps_per_second': 3.172, 'epoch': 0.46}                                                                                                                                                                  
+{'loss': 3.3314, 'learning_rate': 0.00024419999999999997, 'epoch': 0.47}                                                                                                      
+{'loss': 3.3242, 'learning_rate': 0.00025019999999999996, 'epoch': 0.48}                                                                                                      
+{'loss': 3.3391, 'learning_rate': 0.0002562, 'epoch': 0.49}                                                                                                                   
+{'loss': 3.3354, 'learning_rate': 0.0002622, 'epoch': 0.5}                                                                                                                    
+{'loss': 3.3169, 'learning_rate': 0.00026819999999999996, 'epoch': 0.51}                                                                                                      
+{'loss': 3.3026, 'learning_rate': 0.0002742, 'epoch': 0.52}                                                                                                                   
+{'loss': 3.2924, 'learning_rate': 0.0002802, 'epoch': 0.54}                                                                                                                   
+{'loss': 3.3162, 'learning_rate': 0.00028619999999999996, 'epoch': 0.55}                                                                                                      
+{'loss': 3.2955, 'learning_rate': 0.00029219999999999995, 'epoch': 0.56}                                                                                                      
+{'loss': 3.2659, 'learning_rate': 0.0002982, 'epoch': 0.57}                                                                                                                   
+  6%|███████▌                                                                                                                            | 500/8760 [39:59<2:09:49,  1.06it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 3.2529964447021484, 'eval_wer': 1.0, 'eval_cer': 0.9942031091094, 'eval_runtime': 410.0555, 'eval_samples_per_second': 25.455, 'eval_steps_per_second': 3.182, 'epoch': 0.57}                                                                                                                                                                 
+{'loss': 3.2931, 'learning_rate': 0.0002997457627118644, 'epoch': 0.58}                                                                                                       
+{'loss': 3.304, 'learning_rate': 0.0002993825665859564, 'epoch': 0.59}                                                                                                        
+{'loss': 3.2798, 'learning_rate': 0.0002990193704600484, 'epoch': 0.6}                                                                                                        
+{'loss': 3.2705, 'learning_rate': 0.0002986561743341404, 'epoch': 0.62}                                                                                                       
+{'loss': 3.27, 'learning_rate': 0.00029829297820823243, 'epoch': 0.63}                                                                                                        
+{'loss': 3.3078, 'learning_rate': 0.0002979297820823244, 'epoch': 0.64}                                                                                                       
+{'loss': 3.2774, 'learning_rate': 0.00029756658595641645, 'epoch': 0.65}                                                                                                      
+{'loss': 3.2578, 'learning_rate': 0.00029720338983050843, 'epoch': 0.66}                                                                                                      
+{'loss': 3.2297, 'learning_rate': 0.00029684019370460047, 'epoch': 0.67}                                                                                                      
+{'loss': 3.2217, 'learning_rate': 0.00029647699757869245, 'epoch': 0.68}                                                                                                      
+  7%|█████████                                                                                                                           | 600/8760 [49:21<2:07:27,  1.07it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 3.220902919769287, 'eval_wer': 1.0, 'eval_cer': 0.9942031091094, 'eval_runtime': 412.913, 'eval_samples_per_second': 25.279, 'eval_steps_per_second': 3.16, 'epoch': 0.68}                                                                                                                                                                    
+{'loss': 3.2483, 'learning_rate': 0.0002961138014527845, 'epoch': 0.7}                                                                                                        
+{'loss': 3.2242, 'learning_rate': 0.0002957506053268765, 'epoch': 0.71}                                                                                                       
+{'loss': 3.184, 'learning_rate': 0.0002953874092009685, 'epoch': 0.72}                                                                                                        
+{'loss': 3.145, 'learning_rate': 0.00029502421307506054, 'epoch': 0.73}                                                                                                       
+{'loss': 3.0938, 'learning_rate': 0.0002946610169491525, 'epoch': 0.74}                                                                                                       
+{'loss': 3.0806, 'learning_rate': 0.0002942978208232445, 'epoch': 0.75}                                                                                                       
+{'loss': 2.9529, 'learning_rate': 0.00029393462469733654, 'epoch': 0.76}                                                                                                      
+{'loss': 2.7528, 'learning_rate': 0.0002935714285714285, 'epoch': 0.78}                                                                                                       
+{'loss': 2.5867, 'learning_rate': 0.00029320823244552056, 'epoch': 0.79}                                                                                                      
+{'loss': 2.4887, 'learning_rate': 0.0002928450363196126, 'epoch': 0.8}                                                                                                        
+  8%|██████████▌                                                                                                                         | 700/8760 [58:45<2:08:16,  1.05it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 2.1019349098205566, 'eval_wer': 1.0321174299024347, 'eval_cer': 0.6710475083539155, 'eval_runtime': 411.7471, 'eval_samples_per_second': 25.351, 'eval_steps_per_second': 3.169, 'epoch': 0.8}                                                                                                                                                
+{'loss': 2.2877, 'learning_rate': 0.0002924818401937046, 'epoch': 0.81}                                                                                                       
+{'loss': 2.0186, 'learning_rate': 0.0002921186440677966, 'epoch': 0.82}                                                                                                       
+{'loss': 1.8523, 'learning_rate': 0.0002917554479418886, 'epoch': 0.83}                                                                                                       
+{'loss': 1.7859, 'learning_rate': 0.00029139225181598063, 'epoch': 0.84}                                                                                                      
+{'loss': 1.8047, 'learning_rate': 0.0002910290556900726, 'epoch': 0.86}                                                                                                       
+{'loss': 1.6688, 'learning_rate': 0.0002906658595641646, 'epoch': 0.87}                                                                                                       
+{'loss': 1.5369, 'learning_rate': 0.00029030266343825663, 'epoch': 0.88}                                                                                                      
+{'loss': 1.4733, 'learning_rate': 0.0002899394673123486, 'epoch': 0.89}                                                                                                       
+{'loss': 1.5041, 'learning_rate': 0.00028957627118644065, 'epoch': 0.9}                                                                                                       
+{'loss': 1.5432, 'learning_rate': 0.0002892130750605327, 'epoch': 0.91}                                                                                                       
+  9%|███████████▊                                                                                                                      | 800/8760 [1:08:09<2:04:25,  1.07it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 1.1631335020065308, 'eval_wer': 0.9625032961237585, 'eval_cer': 0.4326136858927793, 'eval_runtime': 412.3867, 'eval_samples_per_second': 25.311, 'eval_steps_per_second': 3.165, 'epoch': 0.91}                                                                                                                                               
+{'loss': 1.3751, 'learning_rate': 0.00028884987893462467, 'epoch': 0.92}                                                                                                      
+{'loss': 1.3014, 'learning_rate': 0.0002884866828087167, 'epoch': 0.94}                                                                                                       
+{'loss': 1.3098, 'learning_rate': 0.0002881234866828087, 'epoch': 0.95}                                                                                                       
+{'loss': 1.3537, 'learning_rate': 0.0002877602905569007, 'epoch': 0.96}                                                                                                       
+{'loss': 1.3954, 'learning_rate': 0.0002873970944309927, 'epoch': 0.97}                                                                                                       
+{'loss': 1.3229, 'learning_rate': 0.0002870338983050847, 'epoch': 0.98}                                                                                                       
+{'loss': 1.2968, 'learning_rate': 0.0002866707021791767, 'epoch': 0.99}                                                                                                       
+{'loss': 1.3791, 'learning_rate': 0.00028630750605326876, 'epoch': 1.0}                                                                                                       
+{'loss': 1.2157, 'learning_rate': 0.00028594430992736074, 'epoch': 1.02}                                                                                                      
+{'loss': 1.109, 'learning_rate': 0.0002855811138014528, 'epoch': 1.03}                                                                                                        
+ 10%|█████████████▎                                                                                                                    | 900/8760 [1:17:45<3:07:44,  1.43s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.8555812835693359, 'eval_wer': 0.8922914652368814, 'eval_cer': 0.3611622838878396, 'eval_runtime': 413.9686, 'eval_samples_per_second': 25.214, 'eval_steps_per_second': 3.152, 'epoch': 1.03}                                                                                                                                               
+{'loss': 1.1288, 'learning_rate': 0.00028521791767554476, 'epoch': 1.04}                                                                                                      
+{'loss': 1.2108, 'learning_rate': 0.0002848547215496368, 'epoch': 1.05}                                                                                                       
+{'loss': 1.2058, 'learning_rate': 0.0002844915254237288, 'epoch': 1.06}                                                                                                       
+{'loss': 1.135, 'learning_rate': 0.0002841283292978208, 'epoch': 1.07}                                                                                                        
+{'loss': 1.0587, 'learning_rate': 0.0002837651331719128, 'epoch': 1.08}                                                                                                       
+{'loss': 1.0798, 'learning_rate': 0.00028340193704600483, 'epoch': 1.1}                                                                                                       
+{'loss': 1.0783, 'learning_rate': 0.00028303874092009686, 'epoch': 1.11}                                                                                                      
+{'loss': 1.173, 'learning_rate': 0.00028267554479418885, 'epoch': 1.12}                                                                                                       
+{'loss': 1.099, 'learning_rate': 0.00028231234866828083, 'epoch': 1.13}                                                                                                       
+{'loss': 1.0337, 'learning_rate': 0.00028194915254237286, 'epoch': 1.14}                                                                                                      
+ 11%|██████████████▋                                                                                                                  | 1000/8760 [1:27:10<3:07:42,  1.45s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.8046768307685852, 'eval_wer': 0.869227388591017, 'eval_cer': 0.3320674124654947, 'eval_runtime': 414.5082, 'eval_samples_per_second': 25.182, 'eval_steps_per_second': 3.148, 'epoch': 1.14}                                                                                                                                                
+ 11%|██████████████▋                                                                                                                  | 1000/8760 [1:34:05<3:07:42,  1.45s/it]
+Saving model checkpoint to ./wav2vec2-large-xlsr-arabic/checkpoint-1000                                                                                                       
+Configuration saved in ./wav2vec2-large-xlsr-arabic/checkpoint-1000/config.json
+Model weights saved in ./wav2vec2-large-xlsr-arabic/checkpoint-1000/pytorch_model.bin
+Feature extractor saved in ./wav2vec2-large-xlsr-arabic/checkpoint-1000/preprocessor_config.json
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 0.9959, 'learning_rate': 0.00028158595641646485, 'epoch': 1.15}                                                                                                      
+{'loss': 1.1068, 'learning_rate': 0.0002812227602905569, 'epoch': 1.16}                                                                                                       
+{'loss': 1.1025, 'learning_rate': 0.00028085956416464886, 'epoch': 1.18}                                                                                                      
+{'loss': 1.0415, 'learning_rate': 0.0002804963680387409, 'epoch': 1.19}                                                                                                       
+{'loss': 1.0296, 'learning_rate': 0.00028013317191283294, 'epoch': 1.2}                                                                                                       
+{'loss': 0.9979, 'learning_rate': 0.0002797699757869249, 'epoch': 1.21}                                                                                                       
+{'loss': 0.9822, 'learning_rate': 0.00027940677966101696, 'epoch': 1.22}                                                                                                      
+{'loss': 1.1411, 'learning_rate': 0.00027904358353510894, 'epoch': 1.23}                                                                                                      
+{'loss': 0.9719, 'learning_rate': 0.0002786803874092009, 'epoch': 1.24}                                                                                                       
+{'loss': 0.9444, 'learning_rate': 0.00027831719128329296, 'epoch': 1.26}                                                                                                      
+ 13%|████████████████▏                                                                                                                | 1100/8760 [1:36:39<3:04:27,  1.44s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.7670648097991943, 'eval_wer': 0.8704227828074185, 'eval_cer': 0.3320122039808223, 'eval_runtime': 413.1551, 'eval_samples_per_second': 25.264, 'eval_steps_per_second': 3.159, 'epoch': 1.26}                                                                                                                                               
+{'loss': 0.9364, 'learning_rate': 0.00027795399515738494, 'epoch': 1.27}                                                                                                      
+{'loss': 0.9836, 'learning_rate': 0.000277590799031477, 'epoch': 1.28}                                                                                                        
+{'loss': 1.02, 'learning_rate': 0.00027722760290556896, 'epoch': 1.29}                                                                                                        
+{'loss': 0.9806, 'learning_rate': 0.000276864406779661, 'epoch': 1.3}                                                                                                         
+{'loss': 0.9054, 'learning_rate': 0.00027650121065375303, 'epoch': 1.31}                                                                                                      
+{'loss': 0.8931, 'learning_rate': 0.000276138014527845, 'epoch': 1.32}                                                                                                        
+{'loss': 0.9708, 'learning_rate': 0.00027577481840193705, 'epoch': 1.34}                                                                                                      
+{'loss': 0.9512, 'learning_rate': 0.00027541162227602903, 'epoch': 1.35}                                                                                                      
+{'loss': 0.9294, 'learning_rate': 0.00027504842615012106, 'epoch': 1.36}                                                                                                      
+{'loss': 0.8684, 'learning_rate': 0.00027468523002421305, 'epoch': 1.37}                                                                                                      
+ 14%|█████████████████▋                                                                                                               | 1200/8760 [1:46:03<2:59:34,  1.43s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6913602948188782, 'eval_wer': 0.827564384284082, 'eval_cer': 0.31829434839459536, 'eval_runtime': 414.4776, 'eval_samples_per_second': 25.184, 'eval_steps_per_second': 3.149, 'epoch': 1.37}                                                                                                                                               
+{'loss': 0.9525, 'learning_rate': 0.00027432203389830503, 'epoch': 1.38}                                                                                                      
+{'loss': 0.9552, 'learning_rate': 0.00027395883777239706, 'epoch': 1.39}                                                                                                      
+{'loss': 0.8917, 'learning_rate': 0.0002735956416464891, 'epoch': 1.4}                                                                                                        
+{'loss': 0.9406, 'learning_rate': 0.0002732324455205811, 'epoch': 1.42}                                                                                                       
+{'loss': 0.8644, 'learning_rate': 0.0002728692493946731, 'epoch': 1.43}                                                                                                       
+{'loss': 0.9566, 'learning_rate': 0.0002725060532687651, 'epoch': 1.44}                                                                                                       
+{'loss': 0.9331, 'learning_rate': 0.00027214285714285714, 'epoch': 1.45}                                                                                                      
+{'loss': 1.0646, 'learning_rate': 0.0002717796610169491, 'epoch': 1.46}                                                                                                       
+{'loss': 0.9338, 'learning_rate': 0.00027141646489104115, 'epoch': 1.47}                                                                                                      
+{'loss': 0.9005, 'learning_rate': 0.00027105326876513314, 'epoch': 1.48}                                                                                                      
+ 15%|███████████████████▏                                                                                                             | 1300/8760 [1:55:29<2:55:42,  1.41s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6661921143531799, 'eval_wer': 0.815188538278984, 'eval_cer': 0.2935173616155746, 'eval_runtime': 413.5494, 'eval_samples_per_second': 25.24, 'eval_steps_per_second': 3.156, 'epoch': 1.48}                                                                                                                                                 
+{'loss': 0.8549, 'learning_rate': 0.0002706900726392251, 'epoch': 1.5}                                                                                                        
+{'loss': 0.9323, 'learning_rate': 0.00027032687651331715, 'epoch': 1.51}                                                                                                      
+{'loss': 0.9773, 'learning_rate': 0.0002699636803874092, 'epoch': 1.52}                                                                                                       
+{'loss': 0.907, 'learning_rate': 0.00026960048426150117, 'epoch': 1.53}                                                                                                       
+{'loss': 0.8061, 'learning_rate': 0.0002692372881355932, 'epoch': 1.54}                                                                                                       
+{'loss': 0.8889, 'learning_rate': 0.0002688740920096852, 'epoch': 1.55}                                                                                                       
+{'loss': 0.9085, 'learning_rate': 0.0002685108958837772, 'epoch': 1.56}                                                                                                       
+{'loss': 0.9542, 'learning_rate': 0.0002681476997578692, 'epoch': 1.58}                                                                                                       
+{'loss': 0.8592, 'learning_rate': 0.00026778450363196125, 'epoch': 1.59}                                                                                                      
+{'loss': 0.8105, 'learning_rate': 0.0002674213075060533, 'epoch': 1.6}                                                                                                        
+ 16%|████████████████████▌                                                                                                            | 1400/8760 [2:04:52<2:48:37,  1.37s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6344720125198364, 'eval_wer': 0.7869209809264305, 'eval_cer': 0.29375272410286213, 'eval_runtime': 415.1599, 'eval_samples_per_second': 25.142, 'eval_steps_per_second': 3.143, 'epoch': 1.6}                                                                                                                                               
+{'loss': 0.8519, 'learning_rate': 0.00026705811138014526, 'epoch': 1.61}                                                                                                      
+{'loss': 0.8864, 'learning_rate': 0.0002666949152542373, 'epoch': 1.62}                                                                                                       
+{'loss': 0.9313, 'learning_rate': 0.0002663317191283293, 'epoch': 1.63}                                                                                                       
+{'loss': 0.8638, 'learning_rate': 0.00026596852300242126, 'epoch': 1.64}                                                                                                      
+{'loss': 0.8355, 'learning_rate': 0.0002656053268765133, 'epoch': 1.65}                                                                                                       
+{'loss': 0.8435, 'learning_rate': 0.0002652421307506053, 'epoch': 1.67}                                                                                                       
+{'loss': 0.9203, 'learning_rate': 0.0002648789346246973, 'epoch': 1.68}                                                                                                       
+{'loss': 0.8642, 'learning_rate': 0.0002645157384987893, 'epoch': 1.69}                                                                                                       
+{'loss': 0.8848, 'learning_rate': 0.00026415254237288134, 'epoch': 1.7}                                                                                                       
+{'loss': 0.8012, 'learning_rate': 0.00026378934624697337, 'epoch': 1.71}                                                                                                      
+ 17%|██████████████████████                                                                                                           | 1500/8760 [2:14:18<2:47:20,  1.38s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6280369758605957, 'eval_wer': 0.7882921684099499, 'eval_cer': 0.2849949150079907, 'eval_runtime': 415.1747, 'eval_samples_per_second': 25.141, 'eval_steps_per_second': 3.143, 'epoch': 1.71}                                                                                                                                               
+{'loss': 0.8402, 'learning_rate': 0.00026342615012106535, 'epoch': 1.72}                                                                                                      
+{'loss': 0.8921, 'learning_rate': 0.0002630629539951574, 'epoch': 1.73}                                                                                                       
+{'loss': 0.8424, 'learning_rate': 0.00026269975786924937, 'epoch': 1.75}                                                                                                      
+{'loss': 0.8988, 'learning_rate': 0.00026233656174334135, 'epoch': 1.76}                                                                                                      
+{'loss': 0.7813, 'learning_rate': 0.0002619733656174334, 'epoch': 1.77}                                                                                                       
+{'loss': 0.8426, 'learning_rate': 0.00026161016949152537, 'epoch': 1.78}                                                                                                      
+{'loss': 0.8949, 'learning_rate': 0.0002612469733656174, 'epoch': 1.79}                                                                                                       
+{'loss': 0.8189, 'learning_rate': 0.00026088377723970944, 'epoch': 1.8}                                                                                                       
+{'loss': 0.7607, 'learning_rate': 0.0002605205811138014, 'epoch': 1.81}                                                                                                       
+{'loss': 0.831, 'learning_rate': 0.00026015738498789346, 'epoch': 1.83}                                                                                                       
+ 18%|███████████████████████▌                                                                                                         | 1600/8760 [2:23:45<2:47:21,  1.40s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6638626456260681, 'eval_wer': 0.7883449063900853, 'eval_cer': 0.2814354206014819, 'eval_runtime': 414.5861, 'eval_samples_per_second': 25.177, 'eval_steps_per_second': 3.148, 'epoch': 1.83}                                                                                                                                               
+{'loss': 0.8011, 'learning_rate': 0.00025979418886198544, 'epoch': 1.84}                                                                                                      
+{'loss': 0.8407, 'learning_rate': 0.0002594309927360775, 'epoch': 1.85}                                                                                                       
+{'loss': 0.8621, 'learning_rate': 0.00025906779661016946, 'epoch': 1.86}                                                                                                      
+{'loss': 0.7926, 'learning_rate': 0.00025870460048426144, 'epoch': 1.87}                                                                                                      
+{'loss': 0.7741, 'learning_rate': 0.0002583414043583535, 'epoch': 1.88}                                                                                                       
+{'loss': 0.7682, 'learning_rate': 0.00025797820823244546, 'epoch': 1.89}                                                                                                      
+{'loss': 0.8909, 'learning_rate': 0.0002576150121065375, 'epoch': 1.91}                                                                                                       
+{'loss': 0.8401, 'learning_rate': 0.00025725181598062954, 'epoch': 1.92}                                                                                                      
+{'loss': 0.8308, 'learning_rate': 0.0002568886198547215, 'epoch': 1.93}                                                                                                       
+{'loss': 0.7647, 'learning_rate': 0.00025652542372881355, 'epoch': 1.94}                                                                                                      
+ 19%|█████████████████████████                                                                                                        | 1700/8760 [2:33:10<2:49:53,  1.44s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6455490589141846, 'eval_wer': 0.7808736925375758, 'eval_cer': 0.2797501089641145, 'eval_runtime': 419.2169, 'eval_samples_per_second': 24.899, 'eval_steps_per_second': 3.113, 'epoch': 1.94}                                                                                                                                               
+{'loss': 0.7374, 'learning_rate': 0.00025616222760290554, 'epoch': 1.95}                                                                                                      
+{'loss': 0.7977, 'learning_rate': 0.00025579903147699757, 'epoch': 1.96}                                                                                                      
+{'loss': 0.857, 'learning_rate': 0.00025543583535108955, 'epoch': 1.97}                                                                                                       
+{'loss': 0.8292, 'learning_rate': 0.0002550726392251816, 'epoch': 1.99}                                                                                                       
+{'loss': 0.8458, 'learning_rate': 0.00025470944309927357, 'epoch': 2.0}                                                                                                       
+{'loss': 0.7843, 'learning_rate': 0.0002543462469733656, 'epoch': 2.01}                                                                                                       
+{'loss': 0.7195, 'learning_rate': 0.0002539830508474576, 'epoch': 2.02}                                                                                                       
+{'loss': 0.6753, 'learning_rate': 0.0002536198547215496, 'epoch': 2.03}                                                                                                       
+{'loss': 0.7618, 'learning_rate': 0.0002532566585956416, 'epoch': 2.04}                                                                                                       
+{'loss': 0.6639, 'learning_rate': 0.00025289346246973364, 'epoch': 2.05}                                                                                                      
+ 21%|██████████████████████████▌                                                                                                      | 1800/8760 [2:42:35<1:54:54,  1.01it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6092302799224854, 'eval_wer': 0.7769359233541355, 'eval_cer': 0.28536684585209937, 'eval_runtime': 416.4621, 'eval_samples_per_second': 25.064, 'eval_steps_per_second': 3.134, 'epoch': 2.05}                                                                                                                                              
+{'loss': 0.7284, 'learning_rate': 0.0002525302663438256, 'epoch': 2.07}                                                                                                       
+{'loss': 0.7084, 'learning_rate': 0.00025216707021791766, 'epoch': 2.08}                                                                                                      
+{'loss': 0.6102, 'learning_rate': 0.00025180387409200964, 'epoch': 2.09}                                                                                                      
+{'loss': 0.6923, 'learning_rate': 0.0002514406779661017, 'epoch': 2.1}                                                                                                        
+{'loss': 0.8299, 'learning_rate': 0.0002510774818401937, 'epoch': 2.11}                                                                                                       
+{'loss': 0.7617, 'learning_rate': 0.0002507142857142857, 'epoch': 2.12}                                                                                                       
+{'loss': 0.6453, 'learning_rate': 0.0002503510895883777, 'epoch': 2.13}                                                                                                       
+{'loss': 0.6878, 'learning_rate': 0.0002499878934624697, 'epoch': 2.15}                                                                                                       
+{'loss': 0.6941, 'learning_rate': 0.0002496246973365617, 'epoch': 2.16}                                                                                                       
+{'loss': 0.8122, 'learning_rate': 0.00024926150121065373, 'epoch': 2.17}                                                                                                      
+ 22%|███████████████████████████▉                                                                                                     | 1900/8760 [2:52:01<1:49:46,  1.04it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6190850138664246, 'eval_wer': 0.7774633031554892, 'eval_cer': 0.275847740810693, 'eval_runtime': 415.0368, 'eval_samples_per_second': 25.15, 'eval_steps_per_second': 3.144, 'epoch': 2.17}                                                                                                                                                 
+{'loss': 0.7335, 'learning_rate': 0.0002488983050847457, 'epoch': 2.18}                                                                                                       
+{'loss': 0.7196, 'learning_rate': 0.00024853510895883775, 'epoch': 2.19}                                                                                                      
+{'loss': 0.6661, 'learning_rate': 0.0002481719128329298, 'epoch': 2.2}                                                                                                        
+{'loss': 0.7195, 'learning_rate': 0.00024780871670702177, 'epoch': 2.21}                                                                                                      
+{'loss': 0.7654, 'learning_rate': 0.0002474455205811138, 'epoch': 2.23}                                                                                                       
+{'loss': 0.6979, 'learning_rate': 0.0002470823244552058, 'epoch': 2.24}                                                                                                       
+{'loss': 0.6994, 'learning_rate': 0.0002467191283292978, 'epoch': 2.25}                                                                                                       
+{'loss': 0.6491, 'learning_rate': 0.0002463559322033898, 'epoch': 2.26}                                                                                                       
+{'loss': 0.6519, 'learning_rate': 0.0002459927360774818, 'epoch': 2.27}                                                                                                       
+{'loss': 0.7479, 'learning_rate': 0.0002456295399515738, 'epoch': 2.28}                                                                                                       
+ 23%|█████████████████████████████▍                                                                                                   | 2000/8760 [3:01:28<1:53:05,  1.00s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6124889850616455, 'eval_wer': 0.7762679089390876, 'eval_cer': 0.27456922853406945, 'eval_runtime': 415.8271, 'eval_samples_per_second': 25.102, 'eval_steps_per_second': 3.138, 'epoch': 2.28}                                                                                                                                              
+ 23%|█████████████████████████████▍                                                                                                   | 2000/8760 [3:08:24<1:53:05,  1.00s/it]
+Saving model checkpoint to ./wav2vec2-large-xlsr-arabic/checkpoint-2000                                                                                                       
+Configuration saved in ./wav2vec2-large-xlsr-arabic/checkpoint-2000/config.json
+Model weights saved in ./wav2vec2-large-xlsr-arabic/checkpoint-2000/pytorch_model.bin
+Feature extractor saved in ./wav2vec2-large-xlsr-arabic/checkpoint-2000/preprocessor_config.json
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 0.7775, 'learning_rate': 0.0002452663438256658, 'epoch': 2.29}                                                                                                       
+{'loss': 0.6948, 'learning_rate': 0.00024490314769975784, 'epoch': 2.31}                                                                                                      
+{'loss': 0.6692, 'learning_rate': 0.0002445399515738499, 'epoch': 2.32}                                                                                                       
+{'loss': 0.6713, 'learning_rate': 0.00024417675544794186, 'epoch': 2.33}                                                                                                      
+{'loss': 0.7742, 'learning_rate': 0.00024381355932203387, 'epoch': 2.34}                                                                                                      
+{'loss': 0.7523, 'learning_rate': 0.00024345036319612588, 'epoch': 2.35}                                                                                                      
+{'loss': 0.6658, 'learning_rate': 0.0002430871670702179, 'epoch': 2.36}                                                                                                       
+{'loss': 0.7119, 'learning_rate': 0.0002427239709443099, 'epoch': 2.37}                                                                                                       
+{'loss': 0.6813, 'learning_rate': 0.0002423607748184019, 'epoch': 2.39}                                                                                                       
+{'loss': 0.721, 'learning_rate': 0.00024199757869249392, 'epoch': 2.4}                                                                                                        
+ 24%|██████████████████████████████▉                                                                                                  | 2100/8760 [3:10:58<1:47:38,  1.03it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6286139488220215, 'eval_wer': 0.7764437022062055, 'eval_cer': 0.2761499346215313, 'eval_runtime': 414.8174, 'eval_samples_per_second': 25.163, 'eval_steps_per_second': 3.146, 'epoch': 2.4}                                                                                                                                                
+{'loss': 0.6989, 'learning_rate': 0.00024163438256658595, 'epoch': 2.41}                                                                                                      
+{'loss': 0.6766, 'learning_rate': 0.00024127118644067796, 'epoch': 2.42}                                                                                                      
+{'loss': 0.648, 'learning_rate': 0.00024090799031476997, 'epoch': 2.43}                                                                                                       
+{'loss': 0.6698, 'learning_rate': 0.00024054479418886198, 'epoch': 2.44}                                                                                                      
+{'loss': 0.7615, 'learning_rate': 0.00024018159806295396, 'epoch': 2.45}                                                                                                      
+{'loss': 0.7152, 'learning_rate': 0.00023981840193704597, 'epoch': 2.47}                                                                                                      
+{'loss': 0.7019, 'learning_rate': 0.00023945520581113798, 'epoch': 2.48}                                                                                                      
+{'loss': 0.6333, 'learning_rate': 0.00023909200968523, 'epoch': 2.49}                                                                                                         
+{'loss': 0.6372, 'learning_rate': 0.000238728813559322, 'epoch': 2.5}                                                                                                         
+{'loss': 0.7011, 'learning_rate': 0.00023836561743341403, 'epoch': 2.51}                                                                                                      
+ 25%|████████████████████████████████▍                                                                                                | 2200/8760 [3:20:24<1:47:46,  1.01it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.626649022102356, 'eval_wer': 0.7859365386305704, 'eval_cer': 0.27833212262095014, 'eval_runtime': 417.04, 'eval_samples_per_second': 25.029, 'eval_steps_per_second': 3.129, 'epoch': 2.51}                                                                                                                                                 
+{'loss': 0.7359, 'learning_rate': 0.00023800242130750604, 'epoch': 2.52}                                                                                                      
+{'loss': 0.6144, 'learning_rate': 0.00023763922518159805, 'epoch': 2.53}                                                                                                      
+{'loss': 0.6465, 'learning_rate': 0.00023727602905569006, 'epoch': 2.55}                                                                                                      
+{'loss': 0.6932, 'learning_rate': 0.00023691283292978207, 'epoch': 2.56}                                                                                                      
+{'loss': 0.7232, 'learning_rate': 0.00023654963680387408, 'epoch': 2.57}                                                                                                      
+{'loss': 0.7051, 'learning_rate': 0.00023618644067796606, 'epoch': 2.58}                                                                                                      
+{'loss': 0.642, 'learning_rate': 0.00023582324455205807, 'epoch': 2.59}                                                                                                       
+{'loss': 0.6864, 'learning_rate': 0.0002354600484261501, 'epoch': 2.6}                                                                                                        
+{'loss': 0.6903, 'learning_rate': 0.00023509685230024211, 'epoch': 2.61}                                                                                                      
+{'loss': 0.7332, 'learning_rate': 0.00023473365617433412, 'epoch': 2.63}                                                                                                      
+ 26%|█████████████████████████████████▊                                                                                               | 2300/8760 [3:29:52<1:45:02,  1.03it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5564076900482178, 'eval_wer': 0.7471213852509448, 'eval_cer': 0.2673456341711463, 'eval_runtime': 416.5062, 'eval_samples_per_second': 25.061, 'eval_steps_per_second': 3.133, 'epoch': 2.63}                                                                                                                                               
+{'loss': 0.6992, 'learning_rate': 0.00023437046004842613, 'epoch': 2.64}                                                                                                      
+{'loss': 0.6751, 'learning_rate': 0.00023400726392251814, 'epoch': 2.65}                                                                                                      
+{'loss': 0.6468, 'learning_rate': 0.00023364406779661015, 'epoch': 2.66}                                                                                                      
+{'loss': 0.6679, 'learning_rate': 0.00023328087167070216, 'epoch': 2.67}                                                                                                      
+{'loss': 0.7157, 'learning_rate': 0.00023291767554479417, 'epoch': 2.68}                                                                                                      
+{'loss': 0.6671, 'learning_rate': 0.00023255447941888615, 'epoch': 2.69}                                                                                                      
+{'loss': 0.694, 'learning_rate': 0.00023219128329297821, 'epoch': 2.71}                                                                                                       
+{'loss': 0.6402, 'learning_rate': 0.0002318280871670702, 'epoch': 2.72}                                                                                                       
+{'loss': 0.6507, 'learning_rate': 0.0002314648910411622, 'epoch': 2.73}                                                                                                       
+{'loss': 0.7658, 'learning_rate': 0.00023110169491525421, 'epoch': 2.74}                                                                                                      
+ 27%|███████████████████████████████████▎                                                                                             | 2400/8760 [3:39:22<1:45:51,  1.00it/s]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6422247290611267, 'eval_wer': 0.7919838270194252, 'eval_cer': 0.27955252070318176, 'eval_runtime': 417.5784, 'eval_samples_per_second': 24.997, 'eval_steps_per_second': 3.125, 'epoch': 2.74}                                                                                                                                              
+{'loss': 0.7095, 'learning_rate': 0.00023073849878934622, 'epoch': 2.75}                                                                                                      
+{'loss': 0.6013, 'learning_rate': 0.00023037530266343823, 'epoch': 2.76}                                                                                                      
+{'loss': 0.6654, 'learning_rate': 0.00023001210653753024, 'epoch': 2.77}                                                                                                      
+{'loss': 0.6544, 'learning_rate': 0.00022964891041162225, 'epoch': 2.78}                                                                                                      
+{'loss': 0.6636, 'learning_rate': 0.00022928571428571426, 'epoch': 2.8}                                                                                                       
+{'loss': 0.6903, 'learning_rate': 0.0002289225181598063, 'epoch': 2.81}                                                                                                       
+{'loss': 0.6126, 'learning_rate': 0.0002285593220338983, 'epoch': 2.82}                                                                                                       
+{'loss': 0.6541, 'learning_rate': 0.00022819612590799031, 'epoch': 2.83}                                                                                                      
+{'loss': 0.6863, 'learning_rate': 0.0002278329297820823, 'epoch': 2.84}                                                                                                       
+{'loss': 0.6817, 'learning_rate': 0.0002274697336561743, 'epoch': 2.85}                                                                                                       
+ 29%|████████████████████████████████████▊                                                                                            | 2500/8760 [3:48:51<1:46:18,  1.02s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6661492586135864, 'eval_wer': 0.783334798277226, 'eval_cer': 0.2826180444573587, 'eval_runtime': 416.9631, 'eval_samples_per_second': 25.033, 'eval_steps_per_second': 3.13, 'epoch': 2.85}                                                                                                                                                 
+{'loss': 0.7441, 'learning_rate': 0.00022710653753026631, 'epoch': 2.86}                                                                                                      
+{'loss': 0.6869, 'learning_rate': 0.00022674334140435832, 'epoch': 2.88}                                                                                                      
+{'loss': 0.6511, 'learning_rate': 0.00022638014527845033, 'epoch': 2.89}                                                                                                      
+{'loss': 0.6804, 'learning_rate': 0.00022601694915254234, 'epoch': 2.9}                                                                                                       
+{'loss': 0.6963, 'learning_rate': 0.00022565375302663438, 'epoch': 2.91}                                                                                                      
+{'loss': 0.7092, 'learning_rate': 0.0002252905569007264, 'epoch': 2.92}                                                                                                       
+{'loss': 0.6091, 'learning_rate': 0.0002249273607748184, 'epoch': 2.93}                                                                                                       
+{'loss': 0.5704, 'learning_rate': 0.0002245641646489104, 'epoch': 2.94}                                                                                                       
+{'loss': 0.6496, 'learning_rate': 0.0002242009685230024, 'epoch': 2.96}                                                                                                       
+{'loss': 0.6414, 'learning_rate': 0.0002238377723970944, 'epoch': 2.97}                                                                                                       
+ 30%|██████████████████████████████████████▎                                                                                          | 2600/8760 [3:58:22<1:43:22,  1.01s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6164906024932861, 'eval_wer': 0.7728926782104245, 'eval_cer': 0.2743513003050995, 'eval_runtime': 416.0791, 'eval_samples_per_second': 25.087, 'eval_steps_per_second': 3.136, 'epoch': 2.97}                                                                                                                                               
+{'loss': 0.6731, 'learning_rate': 0.0002234745762711864, 'epoch': 2.98}                                                                                                       
+{'loss': 0.6304, 'learning_rate': 0.00022311138014527841, 'epoch': 2.99}                                                                                                      
+{'loss': 0.6742, 'learning_rate': 0.00022274818401937045, 'epoch': 3.0}                                                                                                       
+{'loss': 0.6328, 'learning_rate': 0.00022238498789346246, 'epoch': 3.01}                                                                                                      
+{'loss': 0.5906, 'learning_rate': 0.00022202179176755447, 'epoch': 3.03}                                                                                                      
+{'loss': 0.5432, 'learning_rate': 0.00022165859564164648, 'epoch': 3.04}                                                                                                      
+{'loss': 0.5596, 'learning_rate': 0.00022129539951573849, 'epoch': 3.05}                                                                                                      
+{'loss': 0.701, 'learning_rate': 0.0002209322033898305, 'epoch': 3.06}                                                                                                        
+{'loss': 0.5985, 'learning_rate': 0.0002205690072639225, 'epoch': 3.07}                                                                                                       
+{'loss': 0.5676, 'learning_rate': 0.00022020581113801449, 'epoch': 3.08}                                                                                                      
+ 31%|███████████████████████████████████████▊                                                                                         | 2700/8760 [4:08:03<2:34:38,  1.53s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5158780813217163, 'eval_wer': 0.6938032873340951, 'eval_cer': 0.25818102571553103, 'eval_runtime': 416.5739, 'eval_samples_per_second': 25.057, 'eval_steps_per_second': 3.133, 'epoch': 3.08}                                                                                                                                              
+{'loss': 0.5603, 'learning_rate': 0.0002198426150121065, 'epoch': 3.09}                                                                                                       
+{'loss': 0.5901, 'learning_rate': 0.00021947941888619853, 'epoch': 3.1}                                                                                                       
+{'loss': 0.6282, 'learning_rate': 0.00021911622276029054, 'epoch': 3.12}                                                                                                      
+{'loss': 0.5803, 'learning_rate': 0.00021875302663438255, 'epoch': 3.13}                                                                                                      
+{'loss': 0.5662, 'learning_rate': 0.00021838983050847456, 'epoch': 3.14}                                                                                                      
+{'loss': 0.5771, 'learning_rate': 0.00021802663438256657, 'epoch': 3.15}                                                                                                      
+{'loss': 0.5764, 'learning_rate': 0.00021766343825665858, 'epoch': 3.16}                                                                                                      
+{'loss': 0.629, 'learning_rate': 0.00021730024213075059, 'epoch': 3.17}                                                                                                       
+{'loss': 0.6609, 'learning_rate': 0.0002169370460048426, 'epoch': 3.18}                                                                                                       
+{'loss': 0.5876, 'learning_rate': 0.0002165738498789346, 'epoch': 3.2}                                                                                                        
+ 32%|█████████████████████████████████████████▏                                                                                       | 2800/8760 [4:17:31<2:29:19,  1.50s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5199339985847473, 'eval_wer': 0.696369869034016, 'eval_cer': 0.2567456051140491, 'eval_runtime': 416.3295, 'eval_samples_per_second': 25.071, 'eval_steps_per_second': 3.135, 'epoch': 3.2}                                                                                                                                                 
+{'loss': 0.5528, 'learning_rate': 0.00021621065375302664, 'epoch': 3.21}                                                                                                      
+{'loss': 0.5846, 'learning_rate': 0.00021584745762711865, 'epoch': 3.22}                                                                                                      
+{'loss': 0.6635, 'learning_rate': 0.00021548426150121063, 'epoch': 3.23}                                                                                                      
+{'loss': 0.6272, 'learning_rate': 0.00021512106537530264, 'epoch': 3.24}                                                                                                      
+{'loss': 0.6123, 'learning_rate': 0.00021475786924939465, 'epoch': 3.25}                                                                                                      
+{'loss': 0.5513, 'learning_rate': 0.00021439467312348666, 'epoch': 3.26}                                                                                                      
+{'loss': 0.608, 'learning_rate': 0.00021403147699757867, 'epoch': 3.28}                                                                                                       
+{'loss': 0.6529, 'learning_rate': 0.00021366828087167068, 'epoch': 3.29}                                                                                                      
+{'loss': 0.6027, 'learning_rate': 0.00021330508474576269, 'epoch': 3.3}                                                                                                       
+{'loss': 0.5412, 'learning_rate': 0.00021294188861985472, 'epoch': 3.31}                                                                                                      
+ 33%|██████████████████████████████████████████▋                                                                                      | 2900/8760 [4:26:58<2:28:28,  1.52s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5366292595863342, 'eval_wer': 0.7244616331194516, 'eval_cer': 0.25890164172599156, 'eval_runtime': 416.0395, 'eval_samples_per_second': 25.089, 'eval_steps_per_second': 3.137, 'epoch': 3.31}                                                                                                                                              
+{'loss': 0.5699, 'learning_rate': 0.00021257869249394673, 'epoch': 3.32}                                                                                                      
+{'loss': 0.5507, 'learning_rate': 0.00021221549636803874, 'epoch': 3.33}                                                                                                      
+{'loss': 0.5677, 'learning_rate': 0.00021185230024213072, 'epoch': 3.34}                                                                                                      
+{'loss': 0.6164, 'learning_rate': 0.00021148910411622273, 'epoch': 3.36}                                                                                                      
+{'loss': 0.5688, 'learning_rate': 0.00021112590799031474, 'epoch': 3.37}                                                                                                      
+{'loss': 0.5604, 'learning_rate': 0.00021076271186440675, 'epoch': 3.38}                                                                                                      
+{'loss': 0.5675, 'learning_rate': 0.00021039951573849876, 'epoch': 3.39}                                                                                                      
+{'loss': 0.6339, 'learning_rate': 0.00021003631961259077, 'epoch': 3.4}                                                                                                       
+{'loss': 0.6208, 'learning_rate': 0.0002096731234866828, 'epoch': 3.41}                                                                                                       
+{'loss': 0.5395, 'learning_rate': 0.0002093099273607748, 'epoch': 3.42}                                                                                                       
+ 34%|████████████████████████████████████████████▏                                                                                    | 3000/8760 [4:36:27<2:21:00,  1.47s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5114969611167908, 'eval_wer': 0.6898127801705195, 'eval_cer': 0.2544152259189307, 'eval_runtime': 416.9048, 'eval_samples_per_second': 25.037, 'eval_steps_per_second': 3.13, 'epoch': 3.42}                                                                                                                                                
+ 34%|████████████████████████████████████████████▏                                                                                    | 3000/8760 [4:43:24<2:21:00,  1.47s/it]
+Saving model checkpoint to ./wav2vec2-large-xlsr-arabic/checkpoint-3000                                                                                                       
+Configuration saved in ./wav2vec2-large-xlsr-arabic/checkpoint-3000/config.json
+Model weights saved in ./wav2vec2-large-xlsr-arabic/checkpoint-3000/pytorch_model.bin
+Feature extractor saved in ./wav2vec2-large-xlsr-arabic/checkpoint-3000/preprocessor_config.json
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 0.5347, 'learning_rate': 0.00020894673123486682, 'epoch': 3.44}                                                                                                      
+{'loss': 0.5694, 'learning_rate': 0.00020858353510895883, 'epoch': 3.45}                                                                                                      
+{'loss': 0.6364, 'learning_rate': 0.00020822033898305084, 'epoch': 3.46}                                                                                                      
+{'loss': 0.6037, 'learning_rate': 0.00020785714285714282, 'epoch': 3.47}                                                                                                      
+{'loss': 0.5544, 'learning_rate': 0.00020749394673123483, 'epoch': 3.48}                                                                                                      
+{'loss': 0.5998, 'learning_rate': 0.00020713075060532684, 'epoch': 3.49}                                                                                                      
+{'loss': 0.5801, 'learning_rate': 0.00020676755447941888, 'epoch': 3.5}                                                                                                       
+{'loss': 0.6124, 'learning_rate': 0.00020640435835351088, 'epoch': 3.52}                                                                                                      
+{'loss': 0.5981, 'learning_rate': 0.0002060411622276029, 'epoch': 3.53}                                                                                                       
+{'loss': 0.5544, 'learning_rate': 0.0002056779661016949, 'epoch': 3.54}                                                                                                       
+ 35%|█████████████████████████████████████████████▋                                                                                   | 3100/8760 [4:45:57<2:21:07,  1.50s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5324169397354126, 'eval_wer': 0.7171837918607717, 'eval_cer': 0.2541072206886532, 'eval_runtime': 418.507, 'eval_samples_per_second': 24.941, 'eval_steps_per_second': 3.118, 'epoch': 3.54}                                                                                                                                                
+{'loss': 0.5788, 'learning_rate': 0.0002053147699757869, 'epoch': 3.55}                                                                                                       
+{'loss': 0.6214, 'learning_rate': 0.00020495157384987892, 'epoch': 3.56}                                                                                                      
+{'loss': 0.5896, 'learning_rate': 0.00020458837772397093, 'epoch': 3.57}                                                                                                      
+{'loss': 0.6047, 'learning_rate': 0.00020422518159806294, 'epoch': 3.58}                                                                                                      
+{'loss': 0.5907, 'learning_rate': 0.00020386198547215492, 'epoch': 3.6}                                                                                                       
+{'loss': 0.521, 'learning_rate': 0.00020349878934624698, 'epoch': 3.61}                                                                                                       
+{'loss': 0.6079, 'learning_rate': 0.00020313559322033897, 'epoch': 3.62}                                                                                                      
+{'loss': 0.6949, 'learning_rate': 0.00020277239709443098, 'epoch': 3.63}                                                                                                      
+{'loss': 0.6273, 'learning_rate': 0.00020240920096852298, 'epoch': 3.64}                                                                                                      
+{'loss': 0.5629, 'learning_rate': 0.000202046004842615, 'epoch': 3.65}                                                                                                        
+ 37%|███████████████████████████████████████████████                                                                                  | 3200/8760 [4:55:26<2:19:26,  1.50s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5102051496505737, 'eval_wer': 0.7010283906126396, 'eval_cer': 0.253485398808659, 'eval_runtime': 417.0677, 'eval_samples_per_second': 25.027, 'eval_steps_per_second': 3.129, 'epoch': 3.65}                                                                                                                                                
+{'loss': 0.5557, 'learning_rate': 0.000201682808716707, 'epoch': 3.66}                                                                                                        
+{'loss': 0.5579, 'learning_rate': 0.000201319612590799, 'epoch': 3.68}                                                                                                        
+{'loss': 0.6044, 'learning_rate': 0.00020095641646489102, 'epoch': 3.69}                                                                                                      
+{'loss': 0.6113, 'learning_rate': 0.00020059322033898303, 'epoch': 3.7}                                                                                                       
+{'loss': 0.533, 'learning_rate': 0.00020023002421307507, 'epoch': 3.71}                                                                                                       
+{'loss': 0.5531, 'learning_rate': 0.00019986682808716708, 'epoch': 3.72}                                                                                                      
+{'loss': 0.5723, 'learning_rate': 0.00019950363196125906, 'epoch': 3.73}                                                                                                      
+{'loss': 0.6345, 'learning_rate': 0.00019914043583535107, 'epoch': 3.74}                                                                                                      
+{'loss': 0.6017, 'learning_rate': 0.00019877723970944308, 'epoch': 3.76}                                                                                                      
+{'loss': 0.4779, 'learning_rate': 0.00019841404358353508, 'epoch': 3.77}                                                                                                      
+ 38%|████████████████████████████████████████████████▌                                                                                | 3300/8760 [5:04:54<2:16:34,  1.50s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5357860922813416, 'eval_wer': 0.7120330491342182, 'eval_cer': 0.25428156327182916, 'eval_runtime': 418.3166, 'eval_samples_per_second': 24.952, 'eval_steps_per_second': 3.12, 'epoch': 3.77}                                                                                                                                               
+{'loss': 0.5272, 'learning_rate': 0.0001980508474576271, 'epoch': 3.78}                                                                                                       
+{'loss': 0.593, 'learning_rate': 0.0001976876513317191, 'epoch': 3.79}                                                                                                        
+{'loss': 0.6929, 'learning_rate': 0.0001973244552058111, 'epoch': 3.8}                                                                                                        
+{'loss': 0.6032, 'learning_rate': 0.00019696125907990315, 'epoch': 3.81}                                                                                                      
+{'loss': 0.5409, 'learning_rate': 0.00019659806295399516, 'epoch': 3.82}                                                                                                      
+{'loss': 0.5373, 'learning_rate': 0.00019623486682808717, 'epoch': 3.84}                                                                                                      
+{'loss': 0.6326, 'learning_rate': 0.00019587167070217917, 'epoch': 3.85}                                                                                                      
+{'loss': 0.5945, 'learning_rate': 0.00019550847457627116, 'epoch': 3.86}                                                                                                      
+{'loss': 0.5855, 'learning_rate': 0.00019514527845036317, 'epoch': 3.87}                                                                                                      
+{'loss': 0.5567, 'learning_rate': 0.00019478208232445517, 'epoch': 3.88}                                                                                                      
+ 39%|██████████████████████████████████████████████████                                                                               | 3400/8760 [5:14:25<2:17:14,  1.54s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5477854013442993, 'eval_wer': 0.726641469631713, 'eval_cer': 0.25955542641290136, 'eval_runtime': 416.4459, 'eval_samples_per_second': 25.064, 'eval_steps_per_second': 3.134, 'epoch': 3.88}                                                                                                                                               
+{'loss': 0.562, 'learning_rate': 0.00019441888619854718, 'epoch': 3.89}                                                                                                       
+{'loss': 0.5968, 'learning_rate': 0.0001940556900726392, 'epoch': 3.9}                                                                                                        
+{'loss': 0.5961, 'learning_rate': 0.00019369249394673123, 'epoch': 3.92}                                                                                                      
+{'loss': 0.5975, 'learning_rate': 0.00019332929782082324, 'epoch': 3.93}                                                                                                      
+{'loss': 0.5775, 'learning_rate': 0.00019296610169491525, 'epoch': 3.94}                                                                                                      
+{'loss': 0.5521, 'learning_rate': 0.00019260290556900726, 'epoch': 3.95}                                                                                                      
+{'loss': 0.5928, 'learning_rate': 0.00019223970944309927, 'epoch': 3.96}                                                                                                      
+{'loss': 0.5729, 'learning_rate': 0.00019187651331719125, 'epoch': 3.97}                                                                                                      
+{'loss': 0.579, 'learning_rate': 0.00019151331719128326, 'epoch': 3.98}                                                                                                       
+{'loss': 0.5701, 'learning_rate': 0.00019115012106537527, 'epoch': 3.99}                                                                                                      
+ 40%|███████████████████████████████████████████████████▌                                                                             | 3500/8760 [5:23:47<1:40:55,  1.15s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.544167160987854, 'eval_wer': 0.73251296475345, 'eval_cer': 0.2626761586517507, 'eval_runtime': 415.3952, 'eval_samples_per_second': 25.128, 'eval_steps_per_second': 3.142, 'epoch': 3.99}                                                                                                                                                  
+{'loss': 0.6925, 'learning_rate': 0.0001907869249394673, 'epoch': 4.01}                                                                                                       
+{'loss': 0.5834, 'learning_rate': 0.0001904237288135593, 'epoch': 4.02}                                                                                                       
+{'loss': 0.5015, 'learning_rate': 0.00019006053268765132, 'epoch': 4.03}                                                                                                      
+{'loss': 0.4996, 'learning_rate': 0.00018969733656174333, 'epoch': 4.04}                                                                                                      
+{'loss': 0.47, 'learning_rate': 0.00018933414043583534, 'epoch': 4.05}                                                                                                        
+{'loss': 0.5282, 'learning_rate': 0.00018897094430992735, 'epoch': 4.06}                                                                                                      
+{'loss': 0.5183, 'learning_rate': 0.00018860774818401936, 'epoch': 4.08}                                                                                                      
+{'loss': 0.5326, 'learning_rate': 0.00018824455205811136, 'epoch': 4.09}                                                                                                      
+{'loss': 0.4856, 'learning_rate': 0.00018788135593220335, 'epoch': 4.1}                                                                                                       
+{'loss': 0.5453, 'learning_rate': 0.0001875181598062954, 'epoch': 4.11}                                                                                                       
+ 41%|█████████████████████████████████████████████████████                                                                            | 3600/8760 [5:33:15<1:28:47,  1.03s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5176571011543274, 'eval_wer': 0.7163224048518941, 'eval_cer': 0.2575998837716112, 'eval_runtime': 417.0934, 'eval_samples_per_second': 25.026, 'eval_steps_per_second': 3.129, 'epoch': 4.11}                                                                                                                                               
+{'loss': 0.5525, 'learning_rate': 0.0001871549636803874, 'epoch': 4.12}                                                                                                       
+{'loss': 0.5001, 'learning_rate': 0.0001867917675544794, 'epoch': 4.13}                                                                                                       
+{'loss': 0.4899, 'learning_rate': 0.0001864285714285714, 'epoch': 4.14}                                                                                                       
+{'loss': 0.4678, 'learning_rate': 0.00018606537530266342, 'epoch': 4.16}                                                                                                      
+{'loss': 0.5679, 'learning_rate': 0.00018570217917675543, 'epoch': 4.17}                                                                                                      
+{'loss': 0.5361, 'learning_rate': 0.00018533898305084744, 'epoch': 4.18}                                                                                                      
+{'loss': 0.5008, 'learning_rate': 0.00018497578692493945, 'epoch': 4.19}                                                                                                      
+{'loss': 0.4693, 'learning_rate': 0.00018461259079903146, 'epoch': 4.2}                                                                                                       
+{'loss': 0.5373, 'learning_rate': 0.0001842493946731235, 'epoch': 4.21}                                                                                                       
+{'loss': 0.5279, 'learning_rate': 0.0001838861985472155, 'epoch': 4.22}                                                                                                       
+ 42%|██████████████████████████████████████████████████████▍                                                                          | 3700/8760 [5:42:44<1:26:38,  1.03s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5205450057983398, 'eval_wer': 0.6967566142216753, 'eval_cer': 0.25304082522156035, 'eval_runtime': 418.9739, 'eval_samples_per_second': 24.913, 'eval_steps_per_second': 3.115, 'epoch': 4.22}                                                                                                                                              
+{'loss': 0.5591, 'learning_rate': 0.0001835230024213075, 'epoch': 4.24}                                                                                                       
+{'loss': 0.5152, 'learning_rate': 0.0001831598062953995, 'epoch': 4.25}                                                                                                       
+{'loss': 0.453, 'learning_rate': 0.0001827966101694915, 'epoch': 4.26}                                                                                                        
+{'loss': 0.4849, 'learning_rate': 0.0001824334140435835, 'epoch': 4.27}                                                                                                       
+{'loss': 0.5283, 'learning_rate': 0.00018207021791767552, 'epoch': 4.28}                                                                                                      
+{'loss': 0.5668, 'learning_rate': 0.00018170702179176753, 'epoch': 4.29}                                                                                                      
+{'loss': 0.5019, 'learning_rate': 0.00018134382566585954, 'epoch': 4.3}                                                                                                       
+{'loss': 0.4697, 'learning_rate': 0.00018098062953995157, 'epoch': 4.31}                                                                                                      
+{'loss': 0.4881, 'learning_rate': 0.00018061743341404358, 'epoch': 4.33}                                                                                                      
+{'loss': 0.4756, 'learning_rate': 0.0001802542372881356, 'epoch': 4.34}                                                                                                       
+ 43%|███████████████████████████████████████████████████████▉                                                                         | 3800/8760 [5:52:15<1:25:09,  1.03s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.4999563694000244, 'eval_wer': 0.707093258328206, 'eval_cer': 0.25066976609036756, 'eval_runtime': 416.8862, 'eval_samples_per_second': 25.038, 'eval_steps_per_second': 3.13, 'epoch': 4.34}                                                                                                                                                
+{'loss': 0.5598, 'learning_rate': 0.0001798910411622276, 'epoch': 4.35}                                                                                                       
+{'loss': 0.5411, 'learning_rate': 0.00017952784503631958, 'epoch': 4.36}                                                                                                      
+{'loss': 0.5093, 'learning_rate': 0.0001791646489104116, 'epoch': 4.37}                                                                                                       
+{'loss': 0.4727, 'learning_rate': 0.0001788014527845036, 'epoch': 4.38}                                                                                                       
+{'loss': 0.5425, 'learning_rate': 0.0001784382566585956, 'epoch': 4.39}                                                                                                       
+{'loss': 0.5979, 'learning_rate': 0.00017807506053268765, 'epoch': 4.41}                                                                                                      
+{'loss': 0.5661, 'learning_rate': 0.00017771186440677965, 'epoch': 4.42}                                                                                                      
+{'loss': 0.4963, 'learning_rate': 0.00017734866828087166, 'epoch': 4.43}                                                                                                      
+{'loss': 0.5179, 'learning_rate': 0.00017698547215496367, 'epoch': 4.44}                                                                                                      
+{'loss': 0.5234, 'learning_rate': 0.00017662227602905568, 'epoch': 4.45}                                                                                                      
+ 45%|█████████████████████████████████████████████████████████▍                                                                       | 3900/8760 [6:01:43<1:24:28,  1.04s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.494699627161026, 'eval_wer': 0.7120330491342182, 'eval_cer': 0.2511927938398954, 'eval_runtime': 416.8419, 'eval_samples_per_second': 25.041, 'eval_steps_per_second': 3.131, 'epoch': 4.45}                                                                                                                                                
+{'loss': 0.56, 'learning_rate': 0.0001762590799031477, 'epoch': 4.46}                                                                                                         
+{'loss': 0.5288, 'learning_rate': 0.0001758958837772397, 'epoch': 4.47}                                                                                                       
+{'loss': 0.4514, 'learning_rate': 0.00017553268765133168, 'epoch': 4.49}                                                                                                      
+{'loss': 0.5046, 'learning_rate': 0.0001751694915254237, 'epoch': 4.5}                                                                                                        
+{'loss': 0.5391, 'learning_rate': 0.00017480629539951573, 'epoch': 4.51}                                                                                                      
+{'loss': 0.5524, 'learning_rate': 0.00017444309927360774, 'epoch': 4.52}                                                                                                      
+{'loss': 0.5051, 'learning_rate': 0.00017407990314769975, 'epoch': 4.53}                                                                                                      
+{'loss': 0.5063, 'learning_rate': 0.00017371670702179175, 'epoch': 4.54}                                                                                                      
+{'loss': 0.4836, 'learning_rate': 0.00017335351089588376, 'epoch': 4.55}                                                                                                      
+{'loss': 0.53, 'learning_rate': 0.00017299031476997577, 'epoch': 4.57}                                                                                                        
+ 46%|██████████████████████████████████████████████████████████▉                                                                      | 4000/8760 [6:11:11<1:22:38,  1.04s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5457006096839905, 'eval_wer': 0.7417772699305617, 'eval_cer': 0.2624262676158652, 'eval_runtime': 416.0134, 'eval_samples_per_second': 25.091, 'eval_steps_per_second': 3.137, 'epoch': 4.57}                                                                                                                                               
+ 46%|██████████████████████████████████████████████████████████▉                                                                      | 4000/8760 [6:18:07<1:22:38,  1.04s/it]
+Saving model checkpoint to ./wav2vec2-large-xlsr-arabic/checkpoint-4000                                                                                                       
+Configuration saved in ./wav2vec2-large-xlsr-arabic/checkpoint-4000/config.json
+Model weights saved in ./wav2vec2-large-xlsr-arabic/checkpoint-4000/pytorch_model.bin
+Feature extractor saved in ./wav2vec2-large-xlsr-arabic/checkpoint-4000/preprocessor_config.json
+Deleting older checkpoint [wav2vec2-large-xlsr-arabic/checkpoint-1000] due to args.save_total_limit
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 0.5525, 'learning_rate': 0.00017262711864406778, 'epoch': 4.58}                                                                                                      
+{'loss': 0.5145, 'learning_rate': 0.0001722639225181598, 'epoch': 4.59}                                                                                                       
+{'loss': 0.4721, 'learning_rate': 0.0001719007263922518, 'epoch': 4.6}                                                                                                        
+{'loss': 0.5298, 'learning_rate': 0.00017153753026634384, 'epoch': 4.61}                                                                                                      
+{'loss': 0.5353, 'learning_rate': 0.00017117433414043582, 'epoch': 4.62}                                                                                                      
+{'loss': 0.567, 'learning_rate': 0.00017081113801452783, 'epoch': 4.63}                                                                                                       
+{'loss': 0.5509, 'learning_rate': 0.00017044794188861984, 'epoch': 4.65}                                                                                                      
+{'loss': 0.4643, 'learning_rate': 0.00017008474576271185, 'epoch': 4.66}                                                                                                      
+{'loss': 0.4804, 'learning_rate': 0.00016972154963680385, 'epoch': 4.67}                                                                                                      
+{'loss': 0.5409, 'learning_rate': 0.00016935835351089586, 'epoch': 4.68}                                                                                                      
+ 47%|████████████████████████████████████████████████████████████▍                                                                    | 4100/8760 [6:20:42<1:21:10,  1.05s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.47751715779304504, 'eval_wer': 0.6855761624329788, 'eval_cer': 0.24869969490047944, 'eval_runtime': 417.2947, 'eval_samples_per_second': 25.013, 'eval_steps_per_second': 3.127, 'epoch': 4.68}                                                                                                                                             
+{'loss': 0.5673, 'learning_rate': 0.00016899515738498787, 'epoch': 4.69}                                                                                                      
+{'loss': 0.522, 'learning_rate': 0.00016863196125907988, 'epoch': 4.7}                                                                                                        
+{'loss': 0.4912, 'learning_rate': 0.00016826876513317192, 'epoch': 4.71}                                                                                                      
+{'loss': 0.4294, 'learning_rate': 0.00016790556900726393, 'epoch': 4.73}                                                                                                      
+{'loss': 0.5449, 'learning_rate': 0.00016754237288135594, 'epoch': 4.74}                                                                                                      
+{'loss': 0.543, 'learning_rate': 0.00016717917675544792, 'epoch': 4.75}                                                                                                       
+{'loss': 0.5287, 'learning_rate': 0.00016681598062953993, 'epoch': 4.76}                                                                                                      
+{'loss': 0.4874, 'learning_rate': 0.00016645278450363194, 'epoch': 4.77}                                                                                                      
+{'loss': 0.5038, 'learning_rate': 0.00016608958837772394, 'epoch': 4.78}                                                                                                      
+{'loss': 0.5371, 'learning_rate': 0.00016572639225181595, 'epoch': 4.79}                                                                                                      
+ 48%|█████████████████████████████████████████████████████████████▊                                                                   | 4200/8760 [6:30:11<1:17:59,  1.03s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5467438101768494, 'eval_wer': 0.7187131932846972, 'eval_cer': 0.25804445735870984, 'eval_runtime': 418.6534, 'eval_samples_per_second': 24.932, 'eval_steps_per_second': 3.117, 'epoch': 4.79}                                                                                                                                              
+{'loss': 0.5551, 'learning_rate': 0.00016536319612590796, 'epoch': 4.81}                                                                                                      
+{'loss': 0.5198, 'learning_rate': 0.000165, 'epoch': 4.82}                                                                                                                    
+{'loss': 0.4786, 'learning_rate': 0.000164636803874092, 'epoch': 4.83}                                                                                                        
+{'loss': 0.467, 'learning_rate': 0.00016427360774818402, 'epoch': 4.84}                                                                                                       
+{'loss': 0.5723, 'learning_rate': 0.00016391041162227603, 'epoch': 4.85}                                                                                                      
+{'loss': 0.5586, 'learning_rate': 0.00016354721549636804, 'epoch': 4.86}                                                                                                      
+{'loss': 0.4812, 'learning_rate': 0.00016318401937046002, 'epoch': 4.87}                                                                                                      
+{'loss': 0.4488, 'learning_rate': 0.00016282082324455203, 'epoch': 4.89}                                                                                                      
+{'loss': 0.5607, 'learning_rate': 0.00016245762711864404, 'epoch': 4.9}                                                                                                       
+{'loss': 0.5839, 'learning_rate': 0.00016209443099273607, 'epoch': 4.91}                                                                                                      
+ 49%|███████████████████████████████████████████████████████████████▎                                                                 | 4300/8760 [6:39:40<1:17:29,  1.04s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5121225714683533, 'eval_wer': 0.705440801617298, 'eval_cer': 0.25192503268923433, 'eval_runtime': 420.0524, 'eval_samples_per_second': 24.849, 'eval_steps_per_second': 3.107, 'epoch': 4.91}                                                                                                                                               
+{'loss': 0.5435, 'learning_rate': 0.00016173123486682808, 'epoch': 4.92}                                                                                                      
+{'loss': 0.4795, 'learning_rate': 0.0001613680387409201, 'epoch': 4.93}                                                                                                       
+{'loss': 0.4641, 'learning_rate': 0.0001610048426150121, 'epoch': 4.94}                                                                                                       
+{'loss': 0.4763, 'learning_rate': 0.0001606416464891041, 'epoch': 4.95}                                                                                                       
+{'loss': 0.5077, 'learning_rate': 0.00016027845036319612, 'epoch': 4.97}                                                                                                      
+{'loss': 0.5249, 'learning_rate': 0.00015991525423728813, 'epoch': 4.98}                                                                                                      
+{'loss': 0.4755, 'learning_rate': 0.0001595520581113801, 'epoch': 4.99}                                                                                                       
+{'loss': 0.5302, 'learning_rate': 0.00015918886198547212, 'epoch': 5.0}                                                                                                       
+{'loss': 0.5307, 'learning_rate': 0.00015882566585956415, 'epoch': 5.01}                                                                                                      
+{'loss': 0.4096, 'learning_rate': 0.00015846246973365616, 'epoch': 5.02}                                                                                                      
+ 50%|████████████████████████████████████████████████████████████████▊                                                                | 4400/8760 [6:49:26<1:56:06,  1.60s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.604831874370575, 'eval_wer': 0.7175881163751429, 'eval_cer': 0.2635740229551068, 'eval_runtime': 420.6544, 'eval_samples_per_second': 24.814, 'eval_steps_per_second': 3.102, 'epoch': 5.02}                                                                                                                                                
+{'loss': 0.4299, 'learning_rate': 0.00015809927360774817, 'epoch': 5.03}                                                                                                      
+{'loss': 0.4102, 'learning_rate': 0.00015773607748184018, 'epoch': 5.05}                                                                                                      
+{'loss': 0.4684, 'learning_rate': 0.0001573728813559322, 'epoch': 5.06}                                                                                                       
+{'loss': 0.5169, 'learning_rate': 0.0001570096852300242, 'epoch': 5.07}                                                                                                       
+{'loss': 0.4123, 'learning_rate': 0.0001566464891041162, 'epoch': 5.08}                                                                                                       
+{'loss': 0.4142, 'learning_rate': 0.00015628329297820822, 'epoch': 5.09}                                                                                                      
+{'loss': 0.4799, 'learning_rate': 0.00015592009685230023, 'epoch': 5.1}                                                                                                       
+{'loss': 0.4541, 'learning_rate': 0.00015555690072639226, 'epoch': 5.11}                                                                                                      
+{'loss': 0.4933, 'learning_rate': 0.00015519370460048427, 'epoch': 5.13}                                                                                                      
+{'loss': 0.4648, 'learning_rate': 0.00015483050847457625, 'epoch': 5.14}                                                                                                      
+ 51%|██████████████████████████████████████████████████████████████████▎                                                              | 4500/8760 [6:58:57<1:50:26,  1.56s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5856636166572571, 'eval_wer': 0.7297354311329876, 'eval_cer': 0.26439052738631413, 'eval_runtime': 419.4951, 'eval_samples_per_second': 24.882, 'eval_steps_per_second': 3.111, 'epoch': 5.14}                                                                                                                                              
+{'loss': 0.4356, 'learning_rate': 0.00015446731234866826, 'epoch': 5.15}                                                                                                      
+{'loss': 0.4906, 'learning_rate': 0.00015410411622276027, 'epoch': 5.16}                                                                                                      
+{'loss': 0.5165, 'learning_rate': 0.00015374092009685228, 'epoch': 5.17}                                                                                                      
+{'loss': 0.4768, 'learning_rate': 0.0001533777239709443, 'epoch': 5.18}                                                                                                       
+{'loss': 0.4257, 'learning_rate': 0.0001530145278450363, 'epoch': 5.19}                                                                                                       
+{'loss': 0.4148, 'learning_rate': 0.0001526513317191283, 'epoch': 5.21}                                                                                                       
+{'loss': 0.4844, 'learning_rate': 0.00015228813559322034, 'epoch': 5.22}                                                                                                      
+{'loss': 0.5509, 'learning_rate': 0.00015192493946731235, 'epoch': 5.23}                                                                                                      
+{'loss': 0.5229, 'learning_rate': 0.00015156174334140436, 'epoch': 5.24}                                                                                                      
+{'loss': 0.4499, 'learning_rate': 0.00015119854721549637, 'epoch': 5.25}                                                                                                      
+ 53%|███████████████████████████████████████████████████████████████████▋                                                             | 4600/8760 [7:08:29<1:49:00,  1.57s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5337308049201965, 'eval_wer': 0.6930122176320647, 'eval_cer': 0.24926340258608165, 'eval_runtime': 418.535, 'eval_samples_per_second': 24.939, 'eval_steps_per_second': 3.118, 'epoch': 5.25}                                                                                                                                               
+{'loss': 0.4255, 'learning_rate': 0.00015083535108958835, 'epoch': 5.26}                                                                                                      
+{'loss': 0.4391, 'learning_rate': 0.00015047215496368036, 'epoch': 5.27}                                                                                                      
+{'loss': 0.5154, 'learning_rate': 0.00015010895883777237, 'epoch': 5.29}                                                                                                      
+{'loss': 0.5126, 'learning_rate': 0.0001497457627118644, 'epoch': 5.3}                                                                                                        
+{'loss': 0.4565, 'learning_rate': 0.00014938256658595642, 'epoch': 5.31}                                                                                                      
+{'loss': 0.4512, 'learning_rate': 0.0001490193704600484, 'epoch': 5.32}                                                                                                       
+{'loss': 0.4664, 'learning_rate': 0.0001486561743341404, 'epoch': 5.33}                                                                                                       
+{'loss': 0.4971, 'learning_rate': 0.00014829297820823244, 'epoch': 5.34}                                                                                                      
+{'loss': 0.5078, 'learning_rate': 0.00014792978208232445, 'epoch': 5.35}                                                                                                      
+{'loss': 0.3969, 'learning_rate': 0.00014756658595641646, 'epoch': 5.37}                                                                                                      
+ 54%|█████████████████████████████████████████████████████████████████████▏                                                           | 4700/8760 [7:17:58<1:48:38,  1.61s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5127658247947693, 'eval_wer': 0.6896545662301133, 'eval_cer': 0.24959465349411594, 'eval_runtime': 421.244, 'eval_samples_per_second': 24.779, 'eval_steps_per_second': 3.098, 'epoch': 5.37}                                                                                                                                               
+{'loss': 0.4566, 'learning_rate': 0.00014720338983050844, 'epoch': 5.38}                                                                                                      
+{'loss': 0.4226, 'learning_rate': 0.00014684019370460048, 'epoch': 5.39}                                                                                                      
+{'loss': 0.5044, 'learning_rate': 0.0001464769975786925, 'epoch': 5.4}                                                                                                        
+{'loss': 0.515, 'learning_rate': 0.0001461138014527845, 'epoch': 5.41}                                                                                                        
+{'loss': 0.4378, 'learning_rate': 0.0001457506053268765, 'epoch': 5.42}                                                                                                       
+{'loss': 0.4407, 'learning_rate': 0.00014538740920096852, 'epoch': 5.43}                                                                                                      
+{'loss': 0.4432, 'learning_rate': 0.00014502421307506052, 'epoch': 5.44}                                                                                                      
+{'loss': 0.4711, 'learning_rate': 0.00014466101694915253, 'epoch': 5.46}                                                                                                      
+{'loss': 0.5282, 'learning_rate': 0.00014429782082324454, 'epoch': 5.47}                                                                                                      
+{'loss': 0.4313, 'learning_rate': 0.00014393462469733655, 'epoch': 5.48}                                                                                                      
+ 55%|██████████████████████████████████████████████████████████████████████▋                                                          | 4800/8760 [7:27:31<1:44:09,  1.58s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.521808385848999, 'eval_wer': 0.6932583282060297, 'eval_cer': 0.24686619206741248, 'eval_runtime': 417.8715, 'eval_samples_per_second': 24.979, 'eval_steps_per_second': 3.123, 'epoch': 5.48}                                                                                                                                               
+{'loss': 0.4319, 'learning_rate': 0.00014357142857142856, 'epoch': 5.49}                                                                                                      
+{'loss': 0.498, 'learning_rate': 0.00014320823244552057, 'epoch': 5.5}                                                                                                        
+{'loss': 0.5062, 'learning_rate': 0.00014284503631961258, 'epoch': 5.51}                                                                                                      
+{'loss': 0.4705, 'learning_rate': 0.0001424818401937046, 'epoch': 5.52}                                                                                                       
+{'loss': 0.413, 'learning_rate': 0.0001421186440677966, 'epoch': 5.54}                                                                                                        
+{'loss': 0.4197, 'learning_rate': 0.0001417554479418886, 'epoch': 5.55}                                                                                                       
+{'loss': 0.4901, 'learning_rate': 0.00014139225181598062, 'epoch': 5.56}                                                                                                      
+{'loss': 0.5358, 'learning_rate': 0.00014102905569007262, 'epoch': 5.57}                                                                                                      
+{'loss': 0.5013, 'learning_rate': 0.00014066585956416463, 'epoch': 5.58}                                                                                                      
+{'loss': 0.4726, 'learning_rate': 0.00014030266343825664, 'epoch': 5.59}                                                                                                      
+ 56%|████████████████████████████████████████████████████████████████████████▏                                                        | 4900/8760 [7:37:01<1:42:51,  1.60s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5190516114234924, 'eval_wer': 0.6911488090006153, 'eval_cer': 0.25242481476100537, 'eval_runtime': 419.5114, 'eval_samples_per_second': 24.881, 'eval_steps_per_second': 3.111, 'epoch': 5.59}                                                                                                                                              
+{'loss': 0.4321, 'learning_rate': 0.00013993946731234865, 'epoch': 5.6}                                                                                                       
+{'loss': 0.4107, 'learning_rate': 0.00013957627118644066, 'epoch': 5.62}                                                                                                      
+{'loss': 0.5037, 'learning_rate': 0.00013921307506053267, 'epoch': 5.63}                                                                                                      
+{'loss': 0.5036, 'learning_rate': 0.00013884987893462468, 'epoch': 5.64}                                                                                                      
+{'loss': 0.4586, 'learning_rate': 0.0001384866828087167, 'epoch': 5.65}                                                                                                       
+{'loss': 0.4508, 'learning_rate': 0.0001381234866828087, 'epoch': 5.66}                                                                                                       
+{'loss': 0.4674, 'learning_rate': 0.0001377602905569007, 'epoch': 5.67}                                                                                                       
+{'loss': 0.4899, 'learning_rate': 0.00013739709443099271, 'epoch': 5.68}                                                                                                      
+{'loss': 0.4836, 'learning_rate': 0.00013703389830508475, 'epoch': 5.7}                                                                                                       
+{'loss': 0.4167, 'learning_rate': 0.00013667070217917673, 'epoch': 5.71}                                                                                                      
+ 57%|█████████████████████████████████████████████████████████████████████████▋                                                       | 5000/8760 [7:46:32<1:40:48,  1.61s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5445301532745361, 'eval_wer': 0.7029093785708007, 'eval_cer': 0.2562632573005957, 'eval_runtime': 419.7074, 'eval_samples_per_second': 24.87, 'eval_steps_per_second': 3.109, 'epoch': 5.71}                                                                                                                                                
+ 57%|█████████████████████████████████████████████████████████████████████████▋                                                       | 5000/8760 [7:53:32<1:40:48,  1.61s/it]
+Saving model checkpoint to ./wav2vec2-large-xlsr-arabic/checkpoint-5000                                                                                                       
+Configuration saved in ./wav2vec2-large-xlsr-arabic/checkpoint-5000/config.json
+Model weights saved in ./wav2vec2-large-xlsr-arabic/checkpoint-5000/pytorch_model.bin
+Feature extractor saved in ./wav2vec2-large-xlsr-arabic/checkpoint-5000/preprocessor_config.json
+Deleting older checkpoint [wav2vec2-large-xlsr-arabic/checkpoint-2000] due to args.save_total_limit
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 0.4526, 'learning_rate': 0.00013630750605326874, 'epoch': 5.72}                                                                                                      
+{'loss': 0.4641, 'learning_rate': 0.00013594430992736075, 'epoch': 5.73}                                                                                                      
+{'loss': 0.4616, 'learning_rate': 0.0001355811138014528, 'epoch': 5.74}                                                                                                       
+{'loss': 0.4903, 'learning_rate': 0.0001352179176755448, 'epoch': 5.75}                                                                                                       
+{'loss': 0.4305, 'learning_rate': 0.00013485472154963678, 'epoch': 5.76}                                                                                                      
+{'loss': 0.4562, 'learning_rate': 0.0001344915254237288, 'epoch': 5.78}                                                                                                       
+{'loss': 0.4372, 'learning_rate': 0.00013412832929782082, 'epoch': 5.79}                                                                                                      
+{'loss': 0.4798, 'learning_rate': 0.00013376513317191283, 'epoch': 5.8}                                                                                                       
+{'loss': 0.5267, 'learning_rate': 0.00013340193704600484, 'epoch': 5.81}                                                                                                      
+{'loss': 0.4462, 'learning_rate': 0.00013303874092009682, 'epoch': 5.82}                                                                                                      
+ 58%|███████████████████████████████████████████████████████████████████████████                                                      | 5100/8760 [7:56:06<1:35:06,  1.56s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5271469950675964, 'eval_wer': 0.6924496791772875, 'eval_cer': 0.2536103443266018, 'eval_runtime': 417.3593, 'eval_samples_per_second': 25.01, 'eval_steps_per_second': 3.127, 'epoch': 5.82}                                                                                                                                                
+{'loss': 0.4144, 'learning_rate': 0.00013267554479418883, 'epoch': 5.83}                                                                                                      
+{'loss': 0.4313, 'learning_rate': 0.00013231234866828087, 'epoch': 5.84}                                                                                                      
+{'loss': 0.5093, 'learning_rate': 0.00013194915254237288, 'epoch': 5.86}                                                                                                      
+{'loss': 0.5158, 'learning_rate': 0.0001315859564164649, 'epoch': 5.87}                                                                                                       
+{'loss': 0.4171, 'learning_rate': 0.0001312227602905569, 'epoch': 5.88}                                                                                                       
+{'loss': 0.3982, 'learning_rate': 0.0001308595641646489, 'epoch': 5.89}                                                                                                       
+{'loss': 0.5084, 'learning_rate': 0.00013049636803874091, 'epoch': 5.9}                                                                                                       
+{'loss': 0.551, 'learning_rate': 0.00013013317191283292, 'epoch': 5.91}                                                                                                       
+{'loss': 0.5051, 'learning_rate': 0.00012976997578692493, 'epoch': 5.92}                                                                                                      
+{'loss': 0.4428, 'learning_rate': 0.00012940677966101694, 'epoch': 5.94}                                                                                                      
+ 59%|████████████████████████████████████████████████████████████████████████████▌                                                    | 5200/8760 [8:05:36<1:32:07,  1.55s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5365937948226929, 'eval_wer': 0.7003076382174562, 'eval_cer': 0.2543716402731367, 'eval_runtime': 491.4568, 'eval_samples_per_second': 21.239, 'eval_steps_per_second': 2.655, 'epoch': 5.94}                                                                                                                                               
+{'loss': 0.4378, 'learning_rate': 0.00012904358353510895, 'epoch': 5.95}                                                                                                      
+{'loss': 0.4364, 'learning_rate': 0.00012868038740920096, 'epoch': 5.96}                                                                                                      
+{'loss': 0.4728, 'learning_rate': 0.00012831719128329297, 'epoch': 5.97}                                                                                                      
+{'loss': 0.4397, 'learning_rate': 0.00012795399515738498, 'epoch': 5.98}                                                                                                      
+{'loss': 0.4176, 'learning_rate': 0.000127590799031477, 'epoch': 5.99}                                                                                                        
+{'loss': 0.5183, 'learning_rate': 0.000127227602905569, 'epoch': 6.0}                                                                                                         
+{'loss': 0.4783, 'learning_rate': 0.000126864406779661, 'epoch': 6.02}                                                                                                        
+{'loss': 0.3793, 'learning_rate': 0.00012650121065375301, 'epoch': 6.03}                                                                                                      
+{'loss': 0.3513, 'learning_rate': 0.00012613801452784502, 'epoch': 6.04}                                                                                                      
+{'loss': 0.3908, 'learning_rate': 0.00012577481840193703, 'epoch': 6.05}                                                                                                      
+ 61%|██████████████████████████████████████████████████████████████████████████████                                                   | 5300/8760 [8:16:40<1:05:43,  1.14s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5728972554206848, 'eval_wer': 0.6958952272127977, 'eval_cer': 0.2499723957576638, 'eval_runtime': 435.8644, 'eval_samples_per_second': 23.948, 'eval_steps_per_second': 2.994, 'epoch': 6.05}                                                                                                                                               
+{'loss': 0.4252, 'learning_rate': 0.00012541162227602904, 'epoch': 6.06}                                                                                                      
+{'loss': 0.4032, 'learning_rate': 0.00012504842615012105, 'epoch': 6.07}                                                                                                      
+{'loss': 0.3549, 'learning_rate': 0.00012468523002421306, 'epoch': 6.08}                                                                                                      
+{'loss': 0.4084, 'learning_rate': 0.00012432203389830507, 'epoch': 6.1}                                                                                                       
+{'loss': 0.4598, 'learning_rate': 0.00012395883777239708, 'epoch': 6.11}                                                                                                      
+{'loss': 0.4735, 'learning_rate': 0.00012359564164648909, 'epoch': 6.12}                                                                                                      
+{'loss': 0.4492, 'learning_rate': 0.0001232324455205811, 'epoch': 6.13}                                                                                                       
+{'loss': 0.3865, 'learning_rate': 0.00012286924939467313, 'epoch': 6.14}                                                                                                      
+{'loss': 0.3673, 'learning_rate': 0.0001225060532687651, 'epoch': 6.15}                                                                                                       
+{'loss': 0.4278, 'learning_rate': 0.00012214285714285712, 'epoch': 6.16}                                                                                                      
+ 62%|███████████████████████████████████████████████████████████████████████████████▌                                                 | 5400/8760 [8:26:34<1:03:07,  1.13s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.617820143699646, 'eval_wer': 0.7244792124461633, 'eval_cer': 0.26978933604532906, 'eval_runtime': 426.3936, 'eval_samples_per_second': 24.48, 'eval_steps_per_second': 3.061, 'epoch': 6.16}                                                                                                                                                
+{'loss': 0.4658, 'learning_rate': 0.00012177966101694913, 'epoch': 6.18}                                                                                                      
+{'loss': 0.4689, 'learning_rate': 0.00012141646489104115, 'epoch': 6.19}                                                                                                      
+{'loss': 0.3785, 'learning_rate': 0.00012105326876513316, 'epoch': 6.2}                                                                                                       
+{'loss': 0.3509, 'learning_rate': 0.00012069007263922517, 'epoch': 6.21}                                                                                                      
+{'loss': 0.4676, 'learning_rate': 0.00012032687651331718, 'epoch': 6.22}                                                                                                      
+{'loss': 0.4742, 'learning_rate': 0.00011996368038740918, 'epoch': 6.23}                                                                                                      
+{'loss': 0.4464, 'learning_rate': 0.0001196004842615012, 'epoch': 6.24}                                                                                                       
+{'loss': 0.371, 'learning_rate': 0.00011923728813559321, 'epoch': 6.26}                                                                                                       
+{'loss': 0.4236, 'learning_rate': 0.00011887409200968522, 'epoch': 6.27}                                                                                                      
+{'loss': 0.4513, 'learning_rate': 0.00011851089588377723, 'epoch': 6.28}                                                                                                      
+ 63%|████████████████████████████████████████████████████████████████████████████████▉                                                | 5500/8760 [8:36:14<1:00:11,  1.11s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6166595220565796, 'eval_wer': 0.6954030060648677, 'eval_cer': 0.25858491936655525, 'eval_runtime': 416.4686, 'eval_samples_per_second': 25.063, 'eval_steps_per_second': 3.133, 'epoch': 6.28}                                                                                                                                              
+{'loss': 0.463, 'learning_rate': 0.00011814769975786925, 'epoch': 6.29}                                                                                                       
+{'loss': 0.4252, 'learning_rate': 0.00011778450363196126, 'epoch': 6.3}                                                                                                       
+{'loss': 0.3654, 'learning_rate': 0.00011742130750605325, 'epoch': 6.31}                                                                                                      
+{'loss': 0.4486, 'learning_rate': 0.00011705811138014526, 'epoch': 6.32}                                                                                                      
+{'loss': 0.4208, 'learning_rate': 0.00011669491525423727, 'epoch': 6.34}                                                                                                      
+{'loss': 0.4634, 'learning_rate': 0.0001163317191283293, 'epoch': 6.35}                                                                                                       
+{'loss': 0.4135, 'learning_rate': 0.0001159685230024213, 'epoch': 6.36}                                                                                                       
+{'loss': 0.3743, 'learning_rate': 0.0001156053268765133, 'epoch': 6.37}                                                                                                       
+{'loss': 0.4188, 'learning_rate': 0.00011524213075060531, 'epoch': 6.38}                                                                                                      
+{'loss': 0.4511, 'learning_rate': 0.00011487893462469733, 'epoch': 6.39}                                                                                                      
+ 64%|███████████████████████████████████████████████████████████████████████████████████▋                                               | 5600/8760 [8:45:43<57:22,  1.09s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5326700210571289, 'eval_wer': 0.6900940493979081, 'eval_cer': 0.25456341711463026, 'eval_runtime': 421.4926, 'eval_samples_per_second': 24.764, 'eval_steps_per_second': 3.096, 'epoch': 6.39}                                                                                                                                              
+{'loss': 0.4578, 'learning_rate': 0.00011451573849878934, 'epoch': 6.4}                                                                                                       
+{'loss': 0.474, 'learning_rate': 0.00011415254237288135, 'epoch': 6.42}                                                                                                       
+{'loss': 0.3765, 'learning_rate': 0.00011378934624697334, 'epoch': 6.43}                                                                                                      
+{'loss': 0.3883, 'learning_rate': 0.00011342615012106537, 'epoch': 6.44}                                                                                                      
+{'loss': 0.4308, 'learning_rate': 0.00011306295399515738, 'epoch': 6.45}                                                                                                      
+{'loss': 0.448, 'learning_rate': 0.00011269975786924939, 'epoch': 6.46}                                                                                                       
+{'loss': 0.4252, 'learning_rate': 0.0001123365617433414, 'epoch': 6.47}                                                                                                       
+{'loss': 0.3889, 'learning_rate': 0.0001119733656174334, 'epoch': 6.48}                                                                                                       
+{'loss': 0.3913, 'learning_rate': 0.00011161016949152543, 'epoch': 6.5}                                                                                                       
+{'loss': 0.3923, 'learning_rate': 0.00011124697336561742, 'epoch': 6.51}                                                                                                      
+ 65%|█████████████████████████████████████████████████████████████████████████████████████▏                                             | 5700/8760 [8:55:19<56:49,  1.11s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.579174280166626, 'eval_wer': 0.685804693680232, 'eval_cer': 0.2573703327037629, 'eval_runtime': 441.5817, 'eval_samples_per_second': 23.638, 'eval_steps_per_second': 2.955, 'epoch': 6.51}                                                                                                                                                 
+{'loss': 0.4875, 'learning_rate': 0.00011088377723970943, 'epoch': 6.52}                                                                                                      
+{'loss': 0.4331, 'learning_rate': 0.00011052058111380144, 'epoch': 6.53}                                                                                                      
+{'loss': 0.3933, 'learning_rate': 0.00011015738498789346, 'epoch': 6.54}                                                                                                      
+{'loss': 0.3734, 'learning_rate': 0.00010979418886198547, 'epoch': 6.55}                                                                                                      
+{'loss': 0.4126, 'learning_rate': 0.00010943099273607747, 'epoch': 6.56}                                                                                                      
+{'loss': 0.4972, 'learning_rate': 0.00010906779661016948, 'epoch': 6.58}                                                                                                      
+{'loss': 0.4352, 'learning_rate': 0.00010870460048426148, 'epoch': 6.59}                                                                                                      
+{'loss': 0.3595, 'learning_rate': 0.00010834140435835351, 'epoch': 6.6}                                                                                                       
+{'loss': 0.4152, 'learning_rate': 0.00010797820823244552, 'epoch': 6.61}                                                                                                      
+{'loss': 0.4431, 'learning_rate': 0.00010761501210653751, 'epoch': 6.62}                                                                                                      
+ 66%|██████████████████████████████████████████████████████████████████████████████████████▋                                            | 5800/8760 [9:05:13<54:09,  1.10s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.551482081413269, 'eval_wer': 0.6934165421464358, 'eval_cer': 0.25371494987650733, 'eval_runtime': 422.3148, 'eval_samples_per_second': 24.716, 'eval_steps_per_second': 3.09, 'epoch': 6.62}                                                                                                                                                
+{'loss': 0.4591, 'learning_rate': 0.00010725181598062952, 'epoch': 6.63}                                                                                                      
+{'loss': 0.4227, 'learning_rate': 0.00010688861985472154, 'epoch': 6.64}                                                                                                      
+{'loss': 0.3869, 'learning_rate': 0.00010652542372881355, 'epoch': 6.65}                                                                                                      
+{'loss': 0.35, 'learning_rate': 0.00010616222760290556, 'epoch': 6.67}                                                                                                        
+{'loss': 0.4227, 'learning_rate': 0.00010579903147699757, 'epoch': 6.68}                                                                                                      
+{'loss': 0.5091, 'learning_rate': 0.0001054358353510896, 'epoch': 6.69}                                                                                                       
+{'loss': 0.452, 'learning_rate': 0.00010507263922518159, 'epoch': 6.7}                                                                                                        
+{'loss': 0.3747, 'learning_rate': 0.0001047094430992736, 'epoch': 6.71}                                                                                                       
+{'loss': 0.4402, 'learning_rate': 0.00010434624697336561, 'epoch': 6.72}                                                                                                      
+{'loss': 0.4818, 'learning_rate': 0.00010398305084745762, 'epoch': 6.73}                                                                                                      
+ 67%|████████████████████████████████████████████████████████████████████████████████████████▏                                          | 5900/8760 [9:14:50<51:04,  1.07s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5674512386322021, 'eval_wer': 0.6875274676979871, 'eval_cer': 0.25574022955106784, 'eval_runtime': 418.4983, 'eval_samples_per_second': 24.942, 'eval_steps_per_second': 3.118, 'epoch': 6.73}                                                                                                                                              
+{'loss': 0.4547, 'learning_rate': 0.00010361985472154964, 'epoch': 6.75}                                                                                                      
+{'loss': 0.4407, 'learning_rate': 0.00010325665859564163, 'epoch': 6.76}                                                                                                      
+{'loss': 0.3589, 'learning_rate': 0.00010289346246973364, 'epoch': 6.77}                                                                                                      
+{'loss': 0.3583, 'learning_rate': 0.00010253026634382565, 'epoch': 6.78}                                                                                                      
+{'loss': 0.4841, 'learning_rate': 0.00010216707021791768, 'epoch': 6.79}                                                                                                      
+{'loss': 0.4855, 'learning_rate': 0.00010180387409200968, 'epoch': 6.8}                                                                                                       
+{'loss': 0.4194, 'learning_rate': 0.00010144067796610168, 'epoch': 6.81}                                                                                                      
+{'loss': 0.3847, 'learning_rate': 0.00010107748184019369, 'epoch': 6.83}                                                                                                      
+{'loss': 0.4452, 'learning_rate': 0.0001007142857142857, 'epoch': 6.84}                                                                                                       
+{'loss': 0.4339, 'learning_rate': 0.00010035108958837772, 'epoch': 6.85}                                                                                                      
+ 68%|█████████████████████████████████████████████████████████████████████████████████████████▋                                         | 6000/8760 [9:24:24<48:58,  1.06s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5295438766479492, 'eval_wer': 0.6677155664938033, 'eval_cer': 0.2479761731802993, 'eval_runtime': 419.3107, 'eval_samples_per_second': 24.893, 'eval_steps_per_second': 3.112, 'epoch': 6.85}                                                                                                                                               
+ 68%|█████████████████████████████████████████████████████████████████████████████████████████▋                                         | 6000/8760 [9:31:23<48:58,  1.06s/it]
+Saving model checkpoint to ./wav2vec2-large-xlsr-arabic/checkpoint-6000                                                                                                       
+Configuration saved in ./wav2vec2-large-xlsr-arabic/checkpoint-6000/config.json
+Model weights saved in ./wav2vec2-large-xlsr-arabic/checkpoint-6000/pytorch_model.bin
+Feature extractor saved in ./wav2vec2-large-xlsr-arabic/checkpoint-6000/preprocessor_config.json
+Deleting older checkpoint [wav2vec2-large-xlsr-arabic/checkpoint-3000] due to args.save_total_limit
+/home/or/anaconda3/lib/python3.9/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:154: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+{'loss': 0.4513, 'learning_rate': 9.998789346246973e-05, 'epoch': 6.86}                                                                                                       
+{'loss': 0.4203, 'learning_rate': 9.962469733656174e-05, 'epoch': 6.87}                                                                                                       
+{'loss': 0.3503, 'learning_rate': 9.926150121065373e-05, 'epoch': 6.88}                                                                                                       
+{'loss': 0.3858, 'learning_rate': 9.889830508474576e-05, 'epoch': 6.89}                                                                                                       
+{'loss': 0.375, 'learning_rate': 9.853510895883777e-05, 'epoch': 6.91}                                                                                                        
+{'loss': 0.4129, 'learning_rate': 9.817191283292977e-05, 'epoch': 6.92}                                                                                                       
+{'loss': 0.4053, 'learning_rate': 9.780871670702178e-05, 'epoch': 6.93}                                                                                                       
+{'loss': 0.3273, 'learning_rate': 9.74455205811138e-05, 'epoch': 6.94}                                                                                                        
+{'loss': 0.3528, 'learning_rate': 9.70823244552058e-05, 'epoch': 6.95}                                                                                                        
+{'loss': 0.4265, 'learning_rate': 9.671912832929781e-05, 'epoch': 6.96}                                                                                                       
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████▏                                       | 6100/8760 [9:33:59<47:36,  1.07s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.682782769203186, 'eval_wer': 0.7028390612639536, 'eval_cer': 0.2667005666133953, 'eval_runtime': 419.5407, 'eval_samples_per_second': 24.88, 'eval_steps_per_second': 3.111, 'epoch': 6.96}                                                                                                                                                 
+{'loss': 0.4826, 'learning_rate': 9.635593220338982e-05, 'epoch': 6.97}                                                                                                       
+{'loss': 0.3702, 'learning_rate': 9.599273607748183e-05, 'epoch': 6.99}                                                                                                       
+{'loss': 0.4251, 'learning_rate': 9.562953995157385e-05, 'epoch': 7.0}                                                                                                        
+{'loss': 0.4244, 'learning_rate': 9.526634382566585e-05, 'epoch': 7.01}                                                                                                       
+{'loss': 0.3687, 'learning_rate': 9.490314769975786e-05, 'epoch': 7.02}                                                                                                       
+{'loss': 0.3602, 'learning_rate': 9.453995157384987e-05, 'epoch': 7.03}                                                                                                       
+{'loss': 0.373, 'learning_rate': 9.417675544794189e-05, 'epoch': 7.04}                                                                                                        
+{'loss': 0.3506, 'learning_rate': 9.38135593220339e-05, 'epoch': 7.05}                                                                                                        
+{'loss': 0.3853, 'learning_rate': 9.345036319612589e-05, 'epoch': 7.07}                                                                                                       
+{'loss': 0.3771, 'learning_rate': 9.30871670702179e-05, 'epoch': 7.08}                                                                                                        
+ 71%|███████████████████████████████████████████████████████████████████████████████████████████▎                                     | 6200/8760 [9:43:41<1:08:14,  1.60s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5511135458946228, 'eval_wer': 0.6633734727959919, 'eval_cer': 0.25040825221560364, 'eval_runtime': 419.3913, 'eval_samples_per_second': 24.888, 'eval_steps_per_second': 3.112, 'epoch': 7.08}                                                                                                                                              
+{'loss': 0.2997, 'learning_rate': 9.272397094430991e-05, 'epoch': 7.09}                                                                                                       
+{'loss': 0.4354, 'learning_rate': 9.236077481840193e-05, 'epoch': 7.1}                                                                                                        
+{'loss': 0.3832, 'learning_rate': 9.199757869249394e-05, 'epoch': 7.11}                                                                                                       
+{'loss': 0.3642, 'learning_rate': 9.163438256658595e-05, 'epoch': 7.12}                                                                                                       
+{'loss': 0.3979, 'learning_rate': 9.127118644067795e-05, 'epoch': 7.13}                                                                                                       
+{'loss': 0.3607, 'learning_rate': 9.090799031476997e-05, 'epoch': 7.15}                                                                                                       
+{'loss': 0.4008, 'learning_rate': 9.054479418886198e-05, 'epoch': 7.16}                                                                                                       
+{'loss': 0.4144, 'learning_rate': 9.018159806295399e-05, 'epoch': 7.17}                                                                                                       
+{'loss': 0.4504, 'learning_rate': 8.9818401937046e-05, 'epoch': 7.18}                                                                                                         
+{'loss': 0.3749, 'learning_rate': 8.945520581113802e-05, 'epoch': 7.19}                                                                                                       
+ 72%|████████████████████████████████████████████████████████████████████████████████████████████▊                                    | 6300/8760 [9:53:13<1:05:14,  1.59s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5835505723953247, 'eval_wer': 0.6977410565175354, 'eval_cer': 0.2608717129158797, 'eval_runtime': 419.2192, 'eval_samples_per_second': 24.899, 'eval_steps_per_second': 3.113, 'epoch': 7.19}                                                                                                                                               
+{'loss': 0.3347, 'learning_rate': 8.909200968523001e-05, 'epoch': 7.2}                                                                                                        
+{'loss': 0.4018, 'learning_rate': 8.872881355932202e-05, 'epoch': 7.21}                                                                                                       
+{'loss': 0.4128, 'learning_rate': 8.836561743341403e-05, 'epoch': 7.23}                                                                                                       
+{'loss': 0.4104, 'learning_rate': 8.800242130750604e-05, 'epoch': 7.24}                                                                                                       
+{'loss': 0.3622, 'learning_rate': 8.763922518159806e-05, 'epoch': 7.25}                                                                                                       
+{'loss': 0.3303, 'learning_rate': 8.727602905569006e-05, 'epoch': 7.26}                                                                                                       
+{'loss': 0.3803, 'learning_rate': 8.691283292978207e-05, 'epoch': 7.27}                                                                                                       
+{'loss': 0.363, 'learning_rate': 8.654963680387408e-05, 'epoch': 7.28}                                                                                                        
+{'loss': 0.4277, 'learning_rate': 8.61864406779661e-05, 'epoch': 7.29}                                                                                                        
+{'loss': 0.3893, 'learning_rate': 8.582324455205811e-05, 'epoch': 7.31}                                                                                                       
+ 73%|█████████████████████████████████████████████████████████████████████████████████████████████▌                                  | 6400/8760 [10:02:42<1:03:29,  1.61s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5785103440284729, 'eval_wer': 0.6737101169025226, 'eval_cer': 0.2584715966874909, 'eval_runtime': 434.766, 'eval_samples_per_second': 24.008, 'eval_steps_per_second': 3.002, 'epoch': 7.31}                                                                                                                                                
+{'loss': 0.3812, 'learning_rate': 8.546004842615012e-05, 'epoch': 7.32}                                                                                                       
+{'loss': 0.3791, 'learning_rate': 8.509685230024211e-05, 'epoch': 7.33}                                                                                                       
+{'loss': 0.3327, 'learning_rate': 8.473365617433414e-05, 'epoch': 7.34}                                                                                                       
+{'loss': 0.4007, 'learning_rate': 8.437046004842615e-05, 'epoch': 7.35}                                                                                                       
+{'loss': 0.4096, 'learning_rate': 8.400726392251816e-05, 'epoch': 7.36}                                                                                                       
+{'loss': 0.3246, 'learning_rate': 8.364406779661016e-05, 'epoch': 7.37}                                                                                                       
+{'loss': 0.3381, 'learning_rate': 8.328087167070216e-05, 'epoch': 7.39}                                                                                                       
+{'loss': 0.4218, 'learning_rate': 8.291767554479418e-05, 'epoch': 7.4}                                                                                                        
+{'loss': 0.4117, 'learning_rate': 8.255447941888619e-05, 'epoch': 7.41}                                                                                                       
+{'loss': 0.3763, 'learning_rate': 8.21912832929782e-05, 'epoch': 7.42}                                                                                                        
+ 74%|██████████████████████████████████████████████████████████████████████████████████████████████▉                                 | 6500/8760 [10:12:30<1:02:35,  1.66s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.6278234124183655, 'eval_wer': 0.6871407225103279, 'eval_cer': 0.262992881011187, 'eval_runtime': 434.2129, 'eval_samples_per_second': 24.039, 'eval_steps_per_second': 3.005, 'epoch': 7.42}                                                                                                                                                
+{'loss': 0.3096, 'learning_rate': 8.182808716707021e-05, 'epoch': 7.43}                                                                                                       
+{'loss': 0.3273, 'learning_rate': 8.146489104116223e-05, 'epoch': 7.44}                                                                                                       
+{'loss': 0.4643, 'learning_rate': 8.110169491525423e-05, 'epoch': 7.45}                                                                                                       
+{'loss': 0.4069, 'learning_rate': 8.073849878934624e-05, 'epoch': 7.47}                                                                                                       
+{'loss': 0.3703, 'learning_rate': 8.037530266343825e-05, 'epoch': 7.48}                                                                                                       
+{'loss': 0.3509, 'learning_rate': 8.001210653753025e-05, 'epoch': 7.49}                                                                                                       
+{'loss': 0.3164, 'learning_rate': 7.964891041162228e-05, 'epoch': 7.5}                                                                                                        
+{'loss': 0.4328, 'learning_rate': 7.928571428571429e-05, 'epoch': 7.51}                                                                                                       
+{'loss': 0.4584, 'learning_rate': 7.892251815980628e-05, 'epoch': 7.52}                                                                                                       
+{'loss': 0.3544, 'learning_rate': 7.855932203389829e-05, 'epoch': 7.53}                                                                                                       
+ 75%|████████████████████████████████████████████████████████████████████████████████████████████████▍                               | 6600/8760 [10:22:22<1:01:21,  1.70s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+
+{'eval_loss': 0.5546380281448364, 'eval_wer': 0.6795991913509712, 'eval_cer': 0.2540636350428592, 'eval_runtime': 444.5647, 'eval_samples_per_second': 23.479, 'eval_steps_per_second': 2.935, 'epoch': 7.53}                                                                                                                                               
+{'loss': 0.3171, 'learning_rate': 7.819612590799031e-05, 'epoch': 7.55}                                                                                                       
+{'loss': 0.3955, 'learning_rate': 7.783292978208232e-05, 'epoch': 7.56}                                                                                                       
+{'loss': 0.4191, 'learning_rate': 7.746973365617433e-05, 'epoch': 7.57}                                                                                                       
+{'loss': 0.4048, 'learning_rate': 7.710653753026633e-05, 'epoch': 7.58}                                                                                                       
+{'loss': 0.3864, 'learning_rate': 7.674334140435835e-05, 'epoch': 7.59}                                                                                                       
+{'loss': 0.3209, 'learning_rate': 7.638014527845036e-05, 'epoch': 7.6}                                                                                                        
+{'loss': 0.3198, 'learning_rate': 7.601694915254237e-05, 'epoch': 7.61}                                                                                                       
+{'loss': 0.4052, 'learning_rate': 7.565375302663438e-05, 'epoch': 7.63}                                                                                                       
+{'loss': 0.3755, 'learning_rate': 7.529055690072637e-05, 'epoch': 7.64}                                                                                                       
+{'loss': 0.3887, 'learning_rate': 7.49273607748184e-05, 'epoch': 7.65}                                                                                                        
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████▍                              | 6700/8760 [10:32:25<58:16,  1.70s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+{'eval_loss': 0.5849123597145081, 'eval_wer': 0.677964313966775, 'eval_cer': 0.25403167223594364, 'eval_runtime': 445.635, 'eval_samples_per_second': 23.423, 'eval_steps_per_second': 2.928, 'epoch': 7.65}                                                                                                                                                
+{'loss': 0.3377, 'learning_rate': 7.45641646489104e-05, 'epoch': 7.66}                                                                                                        
+{'loss': 0.3777, 'learning_rate': 7.420096852300241e-05, 'epoch': 7.67}                                                                                                       
+{'loss': 0.3736, 'learning_rate': 7.383777239709442e-05, 'epoch': 7.68}                                                                                                       
+{'loss': 0.416, 'learning_rate': 7.347457627118643e-05, 'epoch': 7.69}                                                                                                        
+{'loss': 0.395, 'learning_rate': 7.311138014527845e-05, 'epoch': 7.71}                                                                                                        
+{'loss': 0.3562, 'learning_rate': 7.274818401937045e-05, 'epoch': 7.72}                                                                                                       
+{'loss': 0.3628, 'learning_rate': 7.238498789346246e-05, 'epoch': 7.73}                                                                                                       
+{'loss': 0.4426, 'learning_rate': 7.202179176755447e-05, 'epoch': 7.74}                                                                                                       
+{'loss': 0.4165, 'learning_rate': 7.165859564164648e-05, 'epoch': 7.75}                                                                                                       
+{'loss': 0.3616, 'learning_rate': 7.12953995157385e-05, 'epoch': 7.76}                                                                                                        
+ 78%|████████████████████████████████████████████████████████████████████████████████████████████████████▉                             | 6800/8760 [10:42:30<55:20,  1.69s/it]***** Running Evaluation *****
+  Num examples = 10438
+  Batch size = 8
+
+^CTraceback (most recent call last):███████████████████████████████████████████████████████████████████████████                           | 1041/1305 [06:01<01:35,  2.76it/s]
+  File "/home/or/Desktop/wav2vec2/main.py", line 285, in <module>
+    trainer.train()
+  File "/home/or/anaconda3/lib/python3.9/site-packages/transformers/trainer.py", line 1501, in train
+    return inner_training_loop(
+  File "/home/or/anaconda3/lib/python3.9/site-packages/transformers/trainer.py", line 1826, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/or/anaconda3/lib/python3.9/site-packages/transformers/trainer.py", line 2089, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/or/anaconda3/lib/python3.9/site-packages/transformers/trainer.py", line 2796, in evaluate
+    output = eval_loop(
+  File "/home/or/anaconda3/lib/python3.9/site-packages/transformers/trainer.py", line 2964, in evaluation_loop
+    for step, inputs in enumerate(dataloader):
+  File "/home/or/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/or/anaconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/or/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/or/anaconda3/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/or/anaconda3/lib/python3.9/site-packages/datasets/arrow_dataset.py", line 2343, in __getitem__
+    return self._getitem(
+  File "/home/or/anaconda3/lib/python3.9/site-packages/datasets/arrow_dataset.py", line 2328, in _getitem
+    formatted_output = format_table(
+  File "/home/or/anaconda3/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 517, in format_table
+    formatted_output = formatter(pa_table_to_format, query_type=query_type)
+  File "/home/or/anaconda3/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 282, in __call__
+    return self.format_row(pa_table)
+  File "/home/or/anaconda3/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 311, in format_row
+    row = self.python_arrow_extractor().extract_row(pa_table)
+  File "/home/or/anaconda3/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 141, in extract_row
+    return _unnest(pa_table.to_pydict())
+KeyboardInterrupt
+ 78%|███████████████████████████████████████████████████████████████████████████████████████████████████▎                            | 6800/8760 [10:48:32<3:06:56,  5.72s/it]
+
+(base) or@anidjar:~/Desktop/wav2vec2$ 
+
+
